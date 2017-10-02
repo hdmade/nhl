@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>NHL | 160x600</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=160, height=600">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      <div id="animation">
+
+        <div id="bg2"></div>
+        <div id="info"></div>
+        <div id="network"></div>
+        <div id="faceoff"></div>
+        <div id="bg1"></div>
+        <div id="lines_right"></div>
+        <div id="lines_left"></div>
+        <div id="tag3"></div>
+        <div id="tag2b"></div>
+        <div id="tag2a"></div>
+        <div id="tag1"></div>
+        <div id="lockup"></div>
+        
+      </div>        
+
+    </div>
+
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $bg1 = $("#bg1"),
+            $bg2 = $("#bg2"),
+            $faceoff = $("#faceoff"),
+            $info = $("#info"),
+            $lines_left = $("#lines_left"),
+            $lines_right = $("#lines_right"),
+            $lockup = $("#lockup"),
+            $network = $("#network"),
+            $tag1 = $("#tag1"),
+            $tag2a = $("#tag2a"),
+            $tag2b = $("#tag2b"),
+            $tag3 = $("#tag3"),
+            tl;
+
+        tl = new TimelineMax({repeat:1, repeatDelay:3});
+
+        tl.add("start")
+          .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
+
+          .add("frame2", "+=1.0")
+          .to($lockup, 0.25, {opacity:0}, "frame2")
+          // .from($tag1, 0.5, {opacity:0, ease: Power2.easeOut}, "+=0.1")
+          // .from($tag2a, 0.35, {opacity:0, y:25, ease: Power2.easeOut}, "-=0.35")
+          // .to($tag2a, 0.35, {opacity:0, y:-25, ease: Power2.easeOut}, "+=1.25")
+          // .from($tag2b, 0.35, {opacity:0, y:25, ease: Power2.easeOut}, "-=0.35")
+          // .to($tag1, 0.35, {opacity:0, y:-25, ease: Power2.easeOut}, "+=1.25")
+          // .to($tag2b, 0.35, {opacity:0, y:-25, ease: Power2.easeOut}, "-=0.35")
+          // .from($tag3, 0.35, {opacity:0, y:25, ease: Power2.easeOut}, "-=0.35")
+
+          .add("endframe", "+=.25")
+          .from($lines_left, 1.25, {opacity:0, left:160, ease: Power2.easeOut}, "endframe")
+          .from($lines_right, 1.25, {opacity:0, left:-665, ease: Power2.easeOut}, "endframe")
+          .to($tag3, 0.25, {opacity:0}, "endframe")
+          .to($bg1, 1, {opacity:0}, "endframe+=0.25")
+          .from($faceoff, 0.25, {opacity:0}, "endframe+=1.5")
+          .from($info, 0.25, {opacity:0}, "+=0.1")
+          .from($network, 0.25, {opacity:0}, "+=0.1");
+
+    });
+    </script>
+    
+
+</body>
+</html>
+
