@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+// #animation{
+// 	visibility: hidden;
+// }
+
+#banner {
+	position: absolute;
+	width: 160px;
+	height: 600px;
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #adadad;
+	box-sizing: border-box;
+}
+
+}
+
+#gray {
+	position: absolute;
+	left: 0px;
+	top: 0px;	
+	width: 728px;
+	height: 90px;
+	background-color: #52575b;
+}
+
+#my_team {
+	position: absolute;
+	left: 34px;
+	top: 18px;	
+	width: 90px; 
+	height: 16px; 
+	background-image: url(images/my_team.png);
+}
+
+#customer {
+	position: absolute;
+	left: 18px;
+	top: 157px;	
+	width: 125px;
+	height: 240px;
+	background-image: url(images/customer.gif);		
+}
+
+#your_team {
+	position: absolute;
+	left: 21px;
+	top: 568px;	
+	width: 118px;
+	height: 16px;
+	background-image: url(images/your_team.png);
+}
+
+#call_now {
+	position: absolute;
+	left: 52px;
+	top: 98px;	
+	width: 54px;
+	height: 350px;
+	background-image: url(images/call_now.png);		
+}
+
+#runningtext1 {
+	position: absolute;
+	left: 149px;
+	top: 0px;	
+	width: 12px;
+	height: 6495px;
+	background-image: url(images/runningtext.png);		
+}
+
+#runningtext2 {
+	position: absolute;
+	left: 0px;
+	top: 340px;	
+	width: 12px;
+	height: 6495px;
+	background-image: url(images/runningtext.png);		
+}
+

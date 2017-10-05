@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>WNR 728x90 Tonight</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=728, height=90">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+  <!--     <div id="bg"></div> -->
+
+      <div id="animation">
+        
+        <div id="my_team"></div>
+        <div id="customer"></div>
+        <div id="your_team"></div>
+        <div id="call_now"></div>
+        <div id="runningtext1"></div>
+        <div id="runningtext2"></div>
+
+      </div>
+
+    </div>
+      
+    <!-- Load TweenMax here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/CSSPlugin.min.js"></script>
+
+
+
+    <script>
+    (function($){
+      var img = $('customer');
+      var img = $('my_team');
+      var img = $('your_team');
+      var img = $('call_now');
+      var img = $('runningtext1');
+      var img = $('runningtext2');
+
+      //my team your team
+      TweenLite.from(my_team, 1, {top:0});
+      TweenLite.from(my_team, .5, {autoAlpha: 0});
+
+      TweenLite.from(your_team, 1.5, {top:800, delay:.5});
+      TweenLite.from(your_team, .5, {autoAlpha: 0, delay: .5});
+
+      // running text
+      TweenLite.fromTo(runningtext1, 400, {y:0}, {y: -6495});
+      TweenLite.from(runningtext1, 2, {autoAlpha: 0, delay:3});
+      
+      TweenLite.fromTo(runningtext2, 400, {y:-5495}, {y: 0});
+      TweenLite.from(runningtext2, 2, {autoAlpha: 0, delay:3});
+
+      //call now
+      TweenLite.from(call_now, .5, {autoAlpha: 0, delay:3.5});
+      TweenLite.from(call_now, 1, {left: 0, ease:Elastic.easeOut, delay:3.5});
+      TweenLite.to(call_now, 60, {rotation:360, delay:6});
+
+
+      //scene 2 test
+      TweenLite.from(customer, 2, {top:-300, delay:10, ease:Bounce.easeOut});
+      TweenLite.from(customer, 2, {rotation:180, delay:10});
+
+      TweenLite.to(my_team, 1, {top:152, delay:12});
+      TweenLite.to(call_now, 2, {left: 800, delay:10.5});
+      TweenLite.from(your_team, .5, {top: 1000, delay:10});
+
+
+
+
+
+   
+
+
+    })(jQuery);
+    </script>
+    
+
+</body>
+</html>
