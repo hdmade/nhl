@@ -82,10 +82,10 @@ body{
 
 #faceoff{
 	position: absolute;
-	left: 130px;
-	top: 13px;
-	width: 103px;
-	height: 63px;
+	left: 125px;
+	top: 24px;
+	width: 77px;
+	height: 48px;
 	background: url(images/faceoff.png) no-repeat;
 }
 
