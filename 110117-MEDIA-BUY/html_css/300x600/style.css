@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #fdb813;
+	box-sizing: border-box;
+}
+
+/* FRAME 1 */
+#bg1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 600px;
+	background: url(images/bg1.jpg) no-repeat;
+}
+
+#lockup{
+	position: absolute;
+	left: 49px;
+	top: 186px;
+	width: 202px;
+	height: 135px;
+	background: url(images/lockup.png) no-repeat;
+}
+
+
+
+/* ENDFRAME */
+#lines_left{
+	position: absolute;
+	left: -300px;
+	top: 0px;
+	width: 300px;
+	height: 600px;
+	background: url(images/lines_left.png) no-repeat;
+}
+
+#lines_right{
+	position: absolute;
+	left: 300px;
+	top: 0px;
+	width: 300px;
+	height: 600px;
+	background: url(images/lines_right.png) no-repeat;
+}
+
+#bg2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 600px;
+	background: url(images/bg2.jpg) no-repeat;
+}
+
+#faceoff{
+	position: absolute;
+	left: 100px;
+	top: 55px;
+	width: 98px;
+	height: 60px;
+	background: url(images/faceoff.png) no-repeat;
+}
+
+#info{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 600px;
+	background: url(images/info.jpg) no-repeat;
+}
+
+#network{
+	position: absolute;
+	left: 50px;
+	top: 260px;
+	width: 202px;
+	height: 61px;
+	background: url(images/network.png) no-repeat;
+}
+
+
