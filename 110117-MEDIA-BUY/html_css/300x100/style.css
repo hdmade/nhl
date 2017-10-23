@@ -37,7 +37,7 @@ body{
 	left: 71px;
 	top: 9px;
 	width: 157px;
-	height: 85px;
+	height: 88px;
 	background: url(images/lockup.png) no-repeat;
 }
 
@@ -94,7 +94,7 @@ body{
 #network{
 	position: absolute;
 	left: 14px;
-	top: 24px;
+	top: 23px;
 	width: 248px;
 	height: 74px;
 	background: url(images/network.png) no-repeat;

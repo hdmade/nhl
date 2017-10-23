@@ -34,10 +34,10 @@ body{
 
 #lockup{
 	position: absolute;
-	left: 44px;
-	top: 38px;
-	width: 212px;
-	height: 172px;
+	left: 24px;
+	top: 75px;
+	width: 249px;
+	height: 107px;
 	background: url(images/lockup.png) no-repeat;
 }
 
@@ -71,14 +71,16 @@ body{
 	background: url(images/bg2.jpg) no-repeat;
 }
 
+/*
 #faceoff{
 	position: absolute;
 	left: 100px;
-	top: 39px;
+	top: 32px;
 	width: 99px;
 	height: 62px;
 	background: url(images/faceoff.png) no-repeat;
 }
+*/
 
 #info{
 	position: absolute;
@@ -91,10 +93,10 @@ body{
 
 #network{
 	position: absolute;
-	left: 21px;
-	top: 195px;
-	width: 253px;
-	height: 38px;
+	left: 24px;
+	top: 35px;
+	width: 248px;
+	height: 187px;
 	background: url(images/network.png) no-repeat;
 }
 
