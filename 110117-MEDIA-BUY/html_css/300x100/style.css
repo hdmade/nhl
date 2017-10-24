@@ -94,9 +94,9 @@ body{
 #network{
 	position: absolute;
 	left: 13px;
-	top: 23px;
-	width: 248px;
-	height: 74px;
+	top: 24px;
+	width: 247px;
+	height: 73px;
 	background: url(images/network.png) no-repeat;
 }
 
