@@ -34,10 +34,10 @@ body{
 
 #lockup{
 	position: absolute;
-	left: 71px;
-	top: 7px;
-	width: 157px;
-	height: 88px;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 100px;
 	background: url(images/lockup.png) no-repeat;
 }
 

@@ -39,7 +39,7 @@
 
             $bg1 = $("#bg1"),
             $bg2 = $("#bg2"),
-//            $faceoff = $("#faceoff"),
+           $faceoff = $("#faceoff"),
             $info = $("#info"),
             $lines_left = $("#lines_left"),
             $lines_right = $("#lines_right"),
@@ -65,7 +65,7 @@
           .from($lines_right, 1.25, {opacity:0, left:-600, ease: Power2.easeOut}, "endframe")
           .to($tag3, 0.25, {opacity:0}, "endframe")
           .to($bg1, 1, {opacity:0}, "endframe+=0.25")
-//          .from($faceoff, 0.25, {opacity:0}, "endframe+=1.5")
+         .from($faceoff, 0.25, {opacity:0}, "endframe+=1.5")
           .from($info, 0.25, {opacity:0}, "+=0.1")
           .from($network, 0.25, {opacity:0}, "+=0.1");
 
