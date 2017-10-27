@@ -1,1 +1,1 @@
-[10/26/2017, 3:58:17 PM] layer "bg2.jpg80% copy 2": Expected end of input but "c" found.
+[10/27/2017, 11:29:13 AM] layer "bg2.jpg80% copy 2": Expected end of input but "c" found.
