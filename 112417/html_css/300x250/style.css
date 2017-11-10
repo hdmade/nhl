@@ -35,9 +35,9 @@ body{
 #lockup{
 	position: absolute;
 	left: 99px;
-	top: 48px;
+	top: 54px;
 	width: 106px;
-	height: 117px;
+	height: 137px;
 	background: url(images/lockup.png) no-repeat;
 }
 
@@ -93,10 +93,10 @@ body{
 
 #network{
 	position: absolute;
-	left: 133px;
-	top: 193px;
-	width: 35px;
-	height: 22px;
+	left: 124px;
+	top: 195px;
+	width: 52px;
+	height: 33px;
 	background: url(images/network.png) no-repeat;
 }
 
