@@ -34,10 +34,10 @@ body{
 
 #lockup{
 	position: absolute;
-	left: 12px;
-	top: 205px;
-	width: 137px;
-	height: 179px;
+	left: 16px;
+	top: 263px;
+	width: 126px;
+	height: 72px;
 	background: url(images/lockup.png) no-repeat;
 }
 
@@ -74,10 +74,10 @@ body{
 
 #faceoff{
 	position: absolute;
-	left: 13px;
-	top: 24px;
-	width: 137px;
-	height: 108px;
+	left: 16px;
+	top: 57px;
+	width: 126px;
+	height: 72px;
 	background: url(images/faceoff.png) no-repeat;
 }
 
