@@ -91,9 +91,9 @@ body{
 
 #info{
 	position: absolute;
-	left: 71px;
+	left: 0px;
 	top: 0px;
-	width: 509px;
+	width: 728px;
 	height: 90px;
 	background: url(images/info.jpg) no-repeat;
 }
