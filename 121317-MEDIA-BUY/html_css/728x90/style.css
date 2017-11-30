@@ -91,10 +91,10 @@ body{
 
 #info{
 	position: absolute;
-	left: 71px;
+	left: 0px;
 	top: 0px;
-	width: 509px;
-	height: 90px;
+	width: 728px;
+	height: 92px;
 	background: url(images/info.jpg) no-repeat;
 }
 
