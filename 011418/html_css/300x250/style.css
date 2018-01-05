@@ -23,6 +23,7 @@ body{
 }
 
 /* FRAME 1 */
+
 #bg1{
 	position: absolute;
 	left: 0px;
@@ -34,16 +35,72 @@ body{
 
 #lockup{
 	position: absolute;
-	left: 44px;
-	top: 38px;
-	width: 212px;
-	height: 172px;
+	left: 93px;
+	top: 25px;
+	width: 115px;
+	height: 202px;
 	background: url(images/lockup.png) no-repeat;
 }
 
 
 
 /* ENDFRAME */
+
+#teams_mask {
+		position: absolute;
+		left: 20px;
+		top: 0px;
+		width: 241px;
+		height: 75px;
+		overflow: hidden;
+	}
+
+
+#teams{
+	position: absolute;
+	left: 0px;
+	top: 15px;
+	width: 241px;
+	height: 55px;
+	background: url(images/teams.png) no-repeat;
+}
+
+#gotw_mask {
+		position: absolute;
+		left: 20px;
+		width: 142px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+#gotw{
+	position: absolute;
+	left: 0px;
+	top: 81px;
+	width: 142px;
+	height: 12px;
+	background: url(images/gotw.png) no-repeat;
+}
+
+#time_mask {
+		position: absolute;
+		left: 20px;
+		width: 142px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+#time{
+	position: absolute;
+	left: 0px;
+	top: 94px;
+	width: 142px;
+	height: 24px;
+	background: url(images/time.png) no-repeat;
+}
+
+
+
 #lines_left{
 	position: absolute;
 	left: -300px;
@@ -57,7 +114,7 @@ body{
 	position: absolute;
 	left: 300px;
 	top: 0px;
-	width: 300px;
+	width: 600px;
 	height: 250px;
 	background: url(images/lines_right.png) no-repeat;
 }
@@ -82,19 +139,28 @@ body{
 }
 
 
-#info{
+#bg3{
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 300px;
 	height: 250px;
-	background: url(images/info.jpg) no-repeat;
+	background: url(images/bg3.jpg) no-repeat;
+}
+
+#bg4{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg4.jpg) no-repeat;
 }
 
 #network{
 	position: absolute;
-	left: 24px;
-	top: 194px;
+	left: 20px;
+	top: 124px;
 	width: 248px;
 	height: 187px;
 	background: url(images/network.png) no-repeat;
