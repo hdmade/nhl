@@ -18,7 +18,7 @@ body{
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
-	border: 1px solid #fdb813;
+	border: 1px solid #000000;
 	box-sizing: border-box;
 }
 
@@ -35,11 +35,11 @@ body{
 
 #lockup{
 	position: absolute;
-	left: 93px;
-	top: 25px;
-	width: 115px;
-	height: 202px;
-	background: url(images/lockup.png) no-repeat;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/lockup.jpg) no-repeat;
 }
 
 
@@ -51,7 +51,7 @@ body{
 		left: 20px;
 		top: 0px;
 		width: 241px;
-		height: 75px;
+		height: 78px;
 		overflow: hidden;
 	}
 
@@ -61,7 +61,7 @@ body{
 	left: 0px;
 	top: 15px;
 	width: 241px;
-	height: 55px;
+	height: 56px;
 	background: url(images/teams.png) no-repeat;
 }
 
