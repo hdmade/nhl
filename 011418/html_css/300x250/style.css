@@ -48,10 +48,10 @@ body{
 
 #teams_mask {
 		position: absolute;
-		left: 20px;
+		left: 16px;
 		top: 0px;
-		width: 241px;
-		height: 78px;
+		width: 271px;
+		height: 88px;
 		overflow: hidden;
 	}
 
@@ -60,15 +60,15 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 15px;
-	width: 241px;
-	height: 56px;
+	width: 268px;
+	height: 67px;
 	background: url(images/teams.png) no-repeat;
 }
 
 #gotw_mask {
 		position: absolute;
-		left: 20px;
-		width: 142px;
+		left: 16px;
+		width: 202px;
 		height: 250px;
 		overflow: hidden;
 	}
@@ -76,16 +76,16 @@ body{
 #gotw{
 	position: absolute;
 	left: 0px;
-	top: 81px;
-	width: 142px;
+	top: 84px;
+	width: 182px;
 	height: 12px;
 	background: url(images/gotw.png) no-repeat;
 }
 
 #time_mask {
 		position: absolute;
-		left: 20px;
-		width: 142px;
+		left: 16px;
+		width: 182px;
 		height: 250px;
 		overflow: hidden;
 	}
@@ -93,9 +93,9 @@ body{
 #time{
 	position: absolute;
 	left: 0px;
-	top: 94px;
-	width: 142px;
-	height: 24px;
+	top: 98px;
+	width: 172px;
+	height: 34px;
 	background: url(images/time.png) no-repeat;
 }
 
@@ -159,10 +159,10 @@ body{
 
 #network{
 	position: absolute;
-	left: 20px;
-	top: 124px;
+	left: 16px;
+	top: 134px;
 	width: 248px;
-	height: 187px;
+	height: 87px;
 	background: url(images/network.png) no-repeat;
 }
 
