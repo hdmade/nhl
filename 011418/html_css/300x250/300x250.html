@@ -16,9 +16,10 @@
 
       <div id="animation">
 
-        <div id="bg4"></div>
+        
         <div id="bg2"></div>
         <div id="bg3"></div>
+        <div id="bg4"></div>
         
         <div id="teams_mask">
           <div id="teams"></div>
@@ -98,8 +99,8 @@
           .to($tag3, 0.25, {opacity:0}, "endframe")
           .to($bg1, 1, {opacity:0}, "endframe+=0.25")
           // .from($faceoff, 0.25, {opacity:0}, "endframe+=1.5")
-          .from($bg3, .8, {opacity:0}, "+=.1");
-          // .from($bg4, .5, {opacity:0}, "+=.5");
+          // .from($bg4, .5, {opacity:0}, "endframe+=1")
+          .from($bg4, .9, {opacity:0}, "+=.5");
           // .to($bg3, 0.7, {opacity:0}, "+=.5")
           // .to($bg3, 0.7, {opacity:1}, "+=.5")
           // .to($bg3, 0.7, {opacity:0}, "+=.5")

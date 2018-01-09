@@ -14,15 +14,16 @@ body{
 	position: absolute;
 	width: 160px;
 	height: 600px;
-	background-color: #000000;
+	background-color: #ffffff;
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
-	border: 1px solid #fdb813;
+	border: 1px solid #000000;
 	box-sizing: border-box;
 }
 
 /* FRAME 1 */
+
 #bg1{
 	position: absolute;
 	left: 0px;
@@ -34,31 +35,86 @@ body{
 
 #lockup{
 	position: absolute;
-	left: 19px;
-	top: 210px;
-	width: 131px;
-	height: 211px;
-	background: url(images/lockup.png) no-repeat;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/lockup.jpg) no-repeat;
 }
 
-/* FRAME 2 */
 
 
 /* ENDFRAME */
+
+#teams_mask {
+		position: absolute;
+		left: 8px;
+		top: 0px;
+		width: 160px;
+		height: 600px;
+		overflow: hidden;
+	}
+
+
+#teams{
+	position: absolute;
+	left: 0px;
+	top: 149px;
+	width: 160px;
+	height: 67px;
+	background: url(images/teams.png) no-repeat;
+}
+
+#gotw_mask {
+		position: absolute;
+		left: 8px;
+		width: 160px;
+		height: 600px;
+		overflow: hidden;
+	}
+
+#gotw{
+	position: absolute;
+	left: 0px;
+	top: 191px;
+	width: 160px;
+	height: 12px;
+	background: url(images/gotw.png) no-repeat;
+}
+
+#time_mask {
+		position: absolute;
+		left: 8px;
+		width: 160px;
+		height: 600px;
+		overflow: hidden;
+	}
+
+#time{
+	position: absolute;
+	left: 0px;
+	top: 206px;
+	width: 160px;
+	height: 34px;
+	background: url(images/time.png) no-repeat;
+}
+
+
+
 #lines_left{
 	position: absolute;
-	left: -514px;
+	left: -300px;
 	top: 0px;
-	width: 514px;
+	width: 335px;
 	height: 600px;
 	background: url(images/lines_left.png) no-repeat;
 }
 
 #lines_right{
 	position: absolute;
-	left: 160px;
+	left: 300px;
 	top: 0px;
-	width: 515px;
+	width: 335px;
 	height: 600px;
 	background: url(images/lines_right.png) no-repeat;
 }
@@ -72,30 +128,41 @@ body{
 	background: url(images/bg2.jpg) no-repeat;
 }
 
+
 #faceoff{
 	position: absolute;
-	left: 16px;
-	top: 48px;
-	width: 127px;
-	height: 80px;
+	left: 100px;
+	top: 32px;
+	width: 99px;
+	height: 62px;
 	background: url(images/faceoff.png) no-repeat;
 }
 
-#info{
+
+#bg3{
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 160px;
 	height: 600px;
-	background: url(images/info.jpg) no-repeat;
+	background: url(images/bg3.jpg) no-repeat;
+}
+
+#bg4{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/bg4.jpg) no-repeat;
 }
 
 #network{
 	position: absolute;
 	left: 8px;
-	top: 296px;
-	width: 131px;
-	height: 27px;
+	top: 237px;
+	width: 248px;
+	height: 87px;
 	background: url(images/network.png) no-repeat;
 }
 
