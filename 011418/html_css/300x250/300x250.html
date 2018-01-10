@@ -16,9 +16,10 @@
 
       <div id="animation">
 
-        
-        <div id="bg2"></div>
-        <div id="bg3"></div>
+        <div id="bg3_mask">
+          <div id="bg3"></div>
+        </div>
+
         <div id="bg4"></div>
         
         <div id="teams_mask">
@@ -36,7 +37,11 @@
 
         <div id="network"></div>
         <div id="faceoff"></div>
-        <div id="bg1"></div>
+        
+        <div id="bg1_mask">
+          <div id="bg1"></div>
+        </div>
+        
         <div id="lines_right"></div>
         <div id="lines_left"></div>
         <div id="lockup"></div>
@@ -55,7 +60,6 @@
 
             $bg1 = $("#bg1"),
             $bg2 = $("#bg2"),
-            // $faceoff = $("#faceoff"),
             $bg3 = $("#bg3"),
             $bg4 = $("#bg4"),
 
@@ -82,14 +86,12 @@
           .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
 
           .add("frame2", "+=1.0")
-          .to($lockup, 0.25, {opacity:0}, "frame2")
+          .to($lockup, .6, {opacity:0, ease: Power2.easeOut}, "frame2")
        
 
-          .add("endframe", "+=.25")
-          // .from($lines_left, 1.25, {opacity:0, left:600, ease: Power2.easeOut}, "endframe")
-          .from($lines_right, 1.2, {opacity:0, left:-300}, "endframe")
-
-          .from($teams, 0.6, {xPercent:-100, ease: Power2.easeOut}, "teams+=0.2")
+          .add("endframe", "+=0")
+        
+          .from($teams, 0.9, {xPercent:-100, ease: Power2.easeOut}, "teams+=0.2")
           .from($gotw_mask, 0.6, {width:0, ease: Power2.easeOut}, "teams+=0.7")
           .from($time_mask, .6, {width:0, ease: Power2.easeOut}, "teams+=0.9")
 
@@ -97,15 +99,14 @@
 
 
           .to($tag3, 0.25, {opacity:0}, "endframe")
-          .to($bg1, 1, {opacity:0}, "endframe+=0.25")
-          // .from($faceoff, 0.25, {opacity:0}, "endframe+=1.5")
-          // .from($bg4, .5, {opacity:0}, "endframe+=1")
-          .from($bg4, .9, {opacity:0}, "+=.5");
-          // .to($bg3, 0.7, {opacity:0}, "+=.5")
-          // .to($bg3, 0.7, {opacity:1}, "+=.5")
-          // .to($bg3, 0.7, {opacity:0}, "+=.5")
-          // .to($bg3, 0.9, {opacity:1}, "+=.5");
-
+          .to($bg1, .5, {left:300, ease: Power2.easeOut}, "endframe+=0.25")
+         
+          .from($bg4, .9, {opacity:0}, "+=.5")
+          .to($bg4, .9, {opacity:0}, "+=.5")
+          .to($bg4, .9, {opacity:1}, "+=.5")
+          .to($bg4, .9, {opacity:0}, "+=.5")
+          .to($bg4, .9, {opacity:1}, "+=.5");
+         
 
 
           

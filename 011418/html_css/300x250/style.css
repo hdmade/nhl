@@ -26,11 +26,11 @@ body{
 
 #bg1{
 	position: absolute;
-	left: 0px;
+	left: -30px;
 	top: 0px;
-	width: 300px;
+	width: 348px;
 	height: 250px;
-	background: url(images/bg1.jpg) no-repeat;
+	background: url(images/bg1.png) no-repeat;
 }
 
 #lockup{
@@ -45,6 +45,34 @@ body{
 
 
 /* ENDFRAME */
+
+#bg3_mask {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 300px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+#bg1_mask {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 300px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+
+#bg2_mask {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 300px;
+		height: 250px;
+		overflow: hidden;
+	}
 
 #teams_mask {
 		position: absolute;
