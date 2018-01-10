@@ -87,7 +87,7 @@
 
           .add("endframe", "+=.25")
           // .from($lines_left, 1.25, {opacity:0, left:600, ease: Power2.easeOut}, "endframe")
-          .from($lines_right, 1.2, {opacity:0, left:-728}, "endframe")
+          // .from($lines_right, 1.2, {opacity:0, left:-728}, "endframe")
 
           .from($teams, 0.6, {xPercent:-100, ease: Power2.easeOut}, "teams+=0.2")
           .from($gotw_mask, 0.6, {width:0, ease: Power2.easeOut}, "teams+=0.7")
@@ -97,14 +97,16 @@
 
 
           .to($tag3, 0.25, {opacity:0}, "endframe")
-          .to($bg1, 1, {opacity:0}, "endframe+=0.25")
+          .to($bg1, .5, {left:728, ease: Power2.easeOut}, "endframe+=0.25")
+          // .to($bg1, 1, {opacity:0}, "endframe+=0.25")
           // .from($faceoff, 0.25, {opacity:0}, "endframe+=1.5")
           // .from($bg4, .5, {opacity:0}, "endframe+=1")
-          .from($bg4, .9, {opacity:0}, "+=.5");
-          // .to($bg3, 0.7, {opacity:0}, "+=.5")
-          // .to($bg3, 0.7, {opacity:1}, "+=.5")
-          // .to($bg3, 0.7, {opacity:0}, "+=.5")
-          // .to($bg3, 0.9, {opacity:1}, "+=.5");
+          .from($bg4, .9, {opacity:0}, "+=.5")
+          to($bg4, .9, {opacity:0}, "+=.5")
+          .to($bg4, .9, {opacity:1}, "+=.5")
+          .to($bg4, .9, {opacity:0}, "+=.5")
+          .to($bg4, .9, {opacity:1}, "+=.5");
+         
 
 
 

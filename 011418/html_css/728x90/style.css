@@ -26,11 +26,11 @@ body{
 
 #bg1{
 	position: absolute;
-	left: 0px;
+	left: -30px;
 	top: 0px;
-	width: 728px;
+	width: 776px;
 	height: 90px;
-	background: url(images/bg1.jpg) no-repeat;
+	background: url(images/bg1.png) no-repeat;
 }
 
 #lockup{
