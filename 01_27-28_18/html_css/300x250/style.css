@@ -27,7 +27,7 @@ body{
 #lockup{
 	position: absolute;
 	left: 26px;
-	top: 158px;
+	top: 95px;
 	width: 253px;
 	height: 74px;
 	background: url(images/lockup.png) no-repeat;
@@ -103,10 +103,10 @@ body{
 
 #ywywh{
 	position: absolute;
-	left: 31px;
-	top: 60px;
-	width: 235px;
-	height: 93px;
+	left: 19px;
+	top: 77px;
+	width: 262px;
+	height: 104px;
 	background: url(images/ywywh.png) no-repeat;
 }
 
