@@ -14,53 +14,69 @@ body{
 	position: absolute;
 	width: 160px;
 	height: 600px;
-	background-color: #000000;
+	background-color: #fff3d8;
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
-	border: 1px solid #fdb813;
+	border: 1px solid #000000;
 	box-sizing: border-box;
 }
 
-/* FRAME 1 */
-#bg1{
+/* FRAME 2 */
+
+#lockup{
+	position: absolute;
+	left: 0px;
+	top: 234px;
+	width: 160px;
+	height: 133px;
+	background: url(images/lockup.png) no-repeat;
+}
+
+
+#stamp{
+	position: absolute;
+	left:50px;
+	top: 0px;
+	width: 102px;
+	height: 64px;
+	background: url(images/stamp.png) no-repeat;
+}
+
+#network{
+	position: absolute;
+	left: 21px;
+	top: 501px;
+	width: 119px;
+	height: 71px;
+	background: url(images/network.png) no-repeat;
+}
+
+#player1{
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 160px;
 	height: 600px;
-	background: url(images/bg1.jpg) no-repeat;
+	background: url(images/player1.png) no-repeat;
 }
 
-#lockup{
+#player2{
 	position: absolute;
-	left: 19px;
-	top: 210px;
-	width: 131px;
-	height: 211px;
-	background: url(images/lockup.png) no-repeat;
-}
-
-/* FRAME 2 */
-
-
-/* ENDFRAME */
-#lines_left{
-	position: absolute;
-	left: -514px;
+	left: 0px;
 	top: 0px;
-	width: 514px;
+	width: 160px;
 	height: 600px;
-	background: url(images/lines_left.png) no-repeat;
+	background: url(images/player2.png) no-repeat;
 }
 
-#lines_right{
+#player3{
 	position: absolute;
-	left: 160px;
+	left: 0px;
 	top: 0px;
-	width: 515px;
+	width: 160px;
 	height: 600px;
-	background: url(images/lines_right.png) no-repeat;
+	background: url(images/player3.png) no-repeat;
 }
 
 #bg2{
@@ -72,31 +88,39 @@ body{
 	background: url(images/bg2.jpg) no-repeat;
 }
 
-#faceoff{
+
+
+/* Frame 1 */
+
+#oranges{
 	position: absolute;
-	left: 16px;
-	top: 48px;
-	width: 127px;
-	height: 80px;
-	background: url(images/faceoff.png) no-repeat;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 510px;
+	background: url(images/oranges.png) no-repeat;
 }
 
-#info{
+#ywywh{
+	position: absolute;
+	left: 6px;
+	top: 269px;
+	width: 148px;
+	height: 64px;
+	background: url(images/ywywh.png) no-repeat;
+}
+
+#bg1{
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 160px;
 	height: 600px;
-	background: url(images/info.jpg) no-repeat;
+	background: url(images/bg1.jpg) no-repeat;
 }
 
-#network{
-	position: absolute;
-	left: 8px;
-	top: 296px;
-	width: 131px;
-	height: 27px;
-	background: url(images/network.png) no-repeat;
-}
+
+
+
 
 

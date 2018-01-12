@@ -40,7 +40,7 @@
     </div>
 
     <!-- Load TweenMax here -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
     <script>
@@ -60,59 +60,43 @@
             $bg1 = $("#bg1"),
             tl;
 
-        tl = new TimelineMax();
+        tl = new TimelineMax({repeat:1, repeatDelay:3});
         // {repeat:1, repeatDelay:3}
 
         tl.add("start")
-          .from($animation, 0.5, {autoAlpha:0}, "+=0.1") 
+          .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
 
           
-
           // frame 1 build in
-          TweenMax.from(oranges, .3, {top:-10, ease: Power1.easeOut, delay: .5})
-          TweenMax.from(oranges, .5, {autoAlpha: 0, ease: Power1.easeOut, delay: .5})
+          .from(oranges, .3, {top:-10, ease: Power1.easeOut}, "start+=0.5")
+          .from(oranges, .5, {autoAlpha: 0, ease: Power1.easeOut}, "start+=0.5")
 
-          TweenMax.from(ywywh, 1, {top:20, delay: 0} ) 
-          TweenMax.from(ywywh, .5, {autoAlpha: 0, delay: 0})
+          .from(ywywh, 1, {top:20}, "start") 
+          .from(ywywh, .5, {autoAlpha: 0}, "start")
 
-          TweenMax.from(lockup, 1, {autoAlpha: 0, delay: 2.8})
-          TweenMax.from(lockup, 1, {scale:1.3, delay: 2.8})
+          .from(lockup, 1, {autoAlpha: 0}, "start+=2.8")
+          .from(lockup, 1, {scale:1.3}, "start+=2.8")
 
 
           // frame 1 build out
 
-          TweenMax.from(bg2, .5, {autoAlpha: 0, delay: 3})
-          TweenMax.to(lockup, .7, {top:139, left:26, scale:.89, ease: Power1.easeOut, delay: 5})
+          .from(bg2, .5, {autoAlpha: 0}, "start+=3")
+          .to(lockup, .7, {top:139, left:26, scale:.89, ease: Power1.easeOut}, "start+=5")
 
-          TweenMax.from(network, .5, {top:230, ease: Power1.easeOut, delay: 5})
-          TweenMax.from(network, .8, {autoAlpha: 0, ease: Power1.easeOut, delay: 5})
+          .from(network, .5, {top:230, ease: Power1.easeOut}, "start+=5")
+          .from(network, .8, {autoAlpha: 0, ease: Power1.easeOut}, "start+=5")
 
-          TweenMax.from(stamp, .5, {top:-50, ease: Power1.easeOut, delay: 5})
-          TweenMax.from(stamp, .9, {autoAlpha: 0, ease: Power1.easeOut, delay: 5})
+          .from(stamp, .5, {top:-50, ease: Power1.easeOut}, "start+=5")
+          .from(stamp, .9, {autoAlpha: 0, ease: Power1.easeOut}, "start+=5")
 
-          TweenMax.from(player1, .6, {top:20, ease: Power1.easeOut, delay: 5.5})
-          TweenMax.from(player1, .6, {autoAlpha: 0, ease: Power1.easeOut, delay: 5.5})
+          .from(player1, .6, {top:20, ease: Power1.easeOut}, "start+=5.6")
+          .from(player1, .6, {autoAlpha: 0, ease: Power1.easeOut}, "start+=5.6")
 
-          TweenMax.from(player2, .6, {top:20, ease: Power1.easeOut, delay: 5.7})
-          TweenMax.from(player2, .6, {autoAlpha: 0, ease: Power1.easeOut, delay: 5.7})
+          .from(player2, .6, {top:20, ease: Power1.easeOut}, "start+=5.8")
+          .from(player2, .6, {autoAlpha: 0, ease: Power1.easeOut}, "start+=5.8")
 
-          TweenMax.from(player3, .6, {top:20, ease: Power1.easeOut, delay: 5.9})
-          TweenMax.from(player3, .6, {autoAlpha: 0, ease: Power1.easeOut, delay: 5.9})
-          .add("endframe", "+=.25")
-          // .kill();
-
-          // buildout
-          
-          // TweenMax.to(lockup, .5, {autoAlpha: 0, ease: Power1.easeOut, delay: 9})
-          // TweenMax.to(bg2, .5, {autoAlpha: 0, ease: Power1.easeOut, delay: 9})
-          // TweenMax.to(network, .5, {autoAlpha: 0, ease: Power1.easeOut, delay: 9})
-          // TweenMax.to(stamp, .5, {autoAlpha: 0, ease: Power1.easeOut, delay: 9})
-          // TweenMax.to(player1, .5, {autoAlpha: 0, ease: Power1.easeOut, delay: 9})
-          // TweenMax.to(player2, .5, {autoAlpha: 0, ease: Power1.easeOut, delay: 9})
-          // TweenMax.to(player3, .5, {autoAlpha: 0, ease: Power1.easeOut, delay: 9})
-          // TweenMax.to(ywywh, .5, {autoAlpha: 0, ease: Power1.easeOut, delay: 9})
-          // TweenMax.to(oranges, .5, {autoAlpha: 0, ease: Power1.easeOut, delay: 9})
-
+          .from(player3, .6, {top:20, ease: Power1.easeOut}, "start+=6")
+          .from(player3, .6, {autoAlpha: 0, ease: Power1.easeOut}, "start+=6")
 
           ;
 
