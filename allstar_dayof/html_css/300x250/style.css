@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	background-color: #fff3d8;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+/* FRAME 2 */
+
+#lockup{
+	position: absolute;
+	left: 26px;
+	top: 95px;
+	width: 253px;
+	height: 74px;
+	background: url(images/lockup.png) no-repeat;
+}
+
+
+#stamp{
+	position: absolute;
+	left:159px;
+	top: 0px;
+	width: 348px;
+	height: 250px;
+	background: url(images/stamp.png) no-repeat;
+}
+
+#network{
+	position: absolute;
+	left: 50px;
+	top: 217px;
+	width: 200px;
+	height: 18px;
+	background: url(images/network.png) no-repeat;
+}
+
+#player1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 348px;
+	height: 250px;
+	background: url(images/player1.png) no-repeat;
+}
+
+#player2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 348px;
+	height: 250px;
+	background: url(images/player2.png) no-repeat;
+}
+
+#player3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 348px;
+	height: 250px;
+	background: url(images/player3.png) no-repeat;
+}
+
+#bg2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg2.jpg) no-repeat;
+}
+
+
+
+/* Frame 1 */
+
+#oranges{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 97px;
+	background: url(images/oranges.png) no-repeat;
+}
+
+#ywywh{
+	position: absolute;
+	left: 19px;
+	top: 77px;
+	width: 262px;
+	height: 104px;
+	background: url(images/ywywh.png) no-repeat;
+}
+
+#bg1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg1.jpg) no-repeat;
+}
+
+
+
+
+
+
