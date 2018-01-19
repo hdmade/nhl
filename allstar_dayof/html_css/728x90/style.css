@@ -26,19 +26,19 @@ body{
 
 #lockup{
 	position: absolute;
-	left: 237px;
-	top: 8px;
+	left: 238px;
+	top: 7px;
 	width: 252px;
-	height: 72px;
+	height: 73px;
 	background: url(images/lockup.png) no-repeat;
 }
 
 #network{
 	position: absolute;
-	left: 382px;
-	top: 32px;
-	width: 196px;
-	height: 24px;
+	left: 364px;
+	top: 31px;
+	width: 227px;
+	height: 28px;
 	background: url(images/network.png) no-repeat;
 }
 
@@ -63,7 +63,7 @@ body{
 #player3{
 	position: absolute;
 	left: 0px;
-	top: -1px;
+	top: 2px;
 	width: 728px;
 	height: 84px;
 	background: url(images/player3.png) no-repeat;
