@@ -82,7 +82,7 @@ body{
 
 #faceoff{
 	position: absolute;
-	left: 125px;
+	left: 122px;
 	top: 15px;
 	width: 103px;
 	height: 63px;
@@ -91,7 +91,7 @@ body{
 
 #info{
 	position: absolute;
-	left: 0px;
+	left: 71px;
 	top: 0px;
 	width: 728px;
 	height: 92px;
@@ -100,10 +100,10 @@ body{
 
 #network{
 	position: absolute;
-	left: 536px;
-	top: 20px;
-	width: 75px;
-	height: 56px;
+	left: 540px;
+	top: 19px;
+	width: 78px;
+	height: 58px;
 	background: url(images/network.png) no-repeat;
 }
 
