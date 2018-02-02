@@ -26,7 +26,7 @@ body{
 
 #bg1{
 	position: absolute;
-	left: -30px;
+	left: -20px;
 	top: 0px;
 	width: 776px;
 	height: 90px;
@@ -145,6 +145,7 @@ body{
 	top: 0px;
 	width: 728px;
 	height: 90px;
+	opacity: 0;
 	background: url(images/bg3.jpg) no-repeat;
 }
 
@@ -154,12 +155,33 @@ body{
 	top: 0px;
 	width: 728px;
 	height: 90px;
+	opacity: 0;
 	background: url(images/bg4.jpg) no-repeat;
+}
+
+#bg5{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	opacity: 0;
+	background: url(images/bg5.jpg) no-repeat;
+}
+
+#bg6{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	opacity: 0;
+	background: url(images/bg6.jpg) no-repeat;
 }
 
 #network{
 	position: absolute;
-	left: 188px;
+	left: 156px;
 	top: 48px;
 	width: 248px;
 	height: 87px;

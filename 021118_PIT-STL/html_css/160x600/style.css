@@ -59,9 +59,9 @@ body{
 #teams{
 	position: absolute;
 	left: 0px;
-	top: 133px;
+	top: 125px;
 	width: 144px;
-	height: 46px;
+	height: 52px;
 	background: url(images/teams.png) no-repeat;
 }
 
@@ -76,7 +76,7 @@ body{
 #gotw{
 	position: absolute;
 	left: 0px;
-	top: 191px;
+	top: 188px;
 	width: 160px;
 	height: 12px;
 	background: url(images/gotw.png) no-repeat;
@@ -93,9 +93,9 @@ body{
 #time{
 	position: absolute;
 	left: 0px;
-	top: 206px;
+	top: 200px;
 	width: 142px;
-	height: 23px;
+	height: 27px;
 	background: url(images/time.png) no-repeat;
 }
 
@@ -145,6 +145,7 @@ body{
 	top: 0px;
 	width: 160px;
 	height: 600px;
+	opacity: 0;
 	background: url(images/bg3.jpg) no-repeat;
 }
 
@@ -154,7 +155,28 @@ body{
 	top: 0px;
 	width: 160px;
 	height: 600px;
+	opacity: 0;
 	background: url(images/bg4.jpg) no-repeat;
+}
+
+#bg5{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	opacity: 0;
+	background: url(images/bg5.jpg) no-repeat;
+}
+
+#bg6{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	opacity: 0;
+	background: url(images/bg6.jpg) no-repeat;
 }
 
 #network{

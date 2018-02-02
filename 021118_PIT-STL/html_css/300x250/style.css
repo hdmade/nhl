@@ -169,6 +169,7 @@ body{
 
 #bg3{
 	position: absolute;
+	opacity: 0;
 	left: 0px;
 	top: 0px;
 	width: 300px;
@@ -179,10 +180,31 @@ body{
 #bg4{
 	position: absolute;
 	left: 0px;
+	opacity: 0;
 	top: 0px;
 	width: 300px;
 	height: 250px;
 	background: url(images/bg4.jpg) no-repeat;
+}
+
+#bg5{
+	position: absolute;
+	left: 0px;
+	opacity: 0;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg5.jpg) no-repeat;
+}
+
+#bg6{
+	position: absolute;
+	opacity: 0;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg6.jpg) no-repeat;
 }
 
 #network{
