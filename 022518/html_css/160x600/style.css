@@ -48,7 +48,7 @@ body{
 
 #teams_mask {
 		position: absolute;
-		left: 8px;
+		left: 5px;
 		top: 0px;
 		width: 160px;
 		height: 600px;
@@ -60,14 +60,14 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 125px;
-	width: 147px;
+	width: 149px;
 	height: 48px;
 	background: url(images/teams.png) no-repeat;
 }
 
 #gotw_mask {
 		position: absolute;
-		left: 8px;
+		left: 5px;
 		width: 160px;
 		height: 600px;
 		overflow: hidden;
@@ -84,7 +84,7 @@ body{
 
 #time_mask {
 		position: absolute;
-		left: 8px;
+		left: 5px;
 		width: 160px;
 		height: 600px;
 		overflow: hidden;
@@ -181,7 +181,7 @@ body{
 
 #network{
 	position: absolute;
-	left: 8px;
+	left: 5px;
 	top: 237px;
 	width: 248px;
 	height: 87px;
