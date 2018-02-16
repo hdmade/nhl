@@ -16,58 +16,133 @@
 
       <div id="animation">
 
-        <div id="bg2"></div>
-        <div id="info"></div>
-        <div id="network"></div>
-        <div id="faceoff"></div>
-        <div id="bg1"></div>
-        <div id="lines_right"></div>
-        <div id="lines_left"></div>
-        <div id="lockup"></div>
+
+  <!-- Frame 1 -->
+    
+        <div id="bgdarkblue"></div>
+        <div id="logolarge"></div>
+
+<!-- Frame 2 -->       
+        <div id="planeback"></div>
+        <div id="planetop"></div>
+
+<!-- Frame 3 -->
+        <div id="bgend"></div> 
+        <div id="playersbeforeteams"></div> 
+        <div id="playersafterteams"></div> 
+        <div id="teams"></div> 
+        <div id="time"></div>
+        <div id="network"></div> 
         
       </div>        
 
     </div>
 
     <!-- Load TweenMax here -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
     <script>
     $(document).ready(function(){
         var $animation = $("#animation"),
 
-            $bg1 = $("#bg1"),
-            $bg2 = $("#bg2"),
-            $faceoff = $("#faceoff"),
-            $info = $("#info"),
-            $lines_left = $("#lines_left"),
-            $lines_right = $("#lines_right"),
-            $lockup = $("#lockup"),
+            $bgdarkblue = $("#bgdarkblue"),
+            $logolarge = $("#logolarge"),
+
+            $planeback = $("#planeback"),
+            $planetop = $("#planetop"),
+
+
+            $bgend = $("#bgend"),
+            $playersbeforeteams = $("#playersbeforeteams"),
+            $playersafterteams = $("#playersafterteams"),
+            $teams = $("#teams"),
+            $time = $("#time"),
             $network = $("#network"),
-            $tag1 = $("#tag1"),
-            $tag2a = $("#tag2a"),
-            $tag2b = $("#tag2b"),
-            $tag3 = $("#tag3"),
+            
             tl;
 
         tl = new TimelineMax({repeat:1, repeatDelay:3});
+        // {repeat:1, repeatDelay:3}
 
         tl.add("start")
           .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
 
-          .add("frame2", "+=1.0")
-          .to($lockup, 0.25, {opacity:0}, "frame2")
-       
+          
+          // frame 1 build in
+          .from(logolarge, .5, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=0.5")
+          .to(logolarge, .5, {opacity:0}, "start+=3.0")
 
-          .add("endframe", "+=.25")
-          .from($lines_left, 1.25, {opacity:0, left:600, ease: Power2.easeOut}, "endframe")
-          .from($lines_right, 1.25, {opacity:0, left:-600, ease: Power2.easeOut}, "endframe")
-          .to($tag3, 0.25, {opacity:0}, "endframe")
-          .to($bg1, 1, {opacity:0}, "endframe+=0.25")
-          .from($faceoff, 0.25, {opacity:0}, "endframe+=1.5")
-          .from($info, 0.25, {opacity:0}, "+=0.1")
-          .from($network, 0.25, {opacity:0}, "+=0.1");
+
+          //planes 
+          .to(planetop, 2, {left:300, }, "start+=3.0")
+          .to(planeback, 1.3, {left:300,}, "start+=3.3")
+
+
+          //game
+          .to(bgend, .5, {opacity:1, ease: Power1.easeIn}, "start+=3.8")
+          // .to(time, .5, {opacity:1, ease: Power1.easeIn}, "start+=3.8")
+          .to(playersbeforeteams, .5, {opacity:1, ease: Power1.easeIn}, "start+=3.8")
+          .to(playersbeforeteams, .5, {opacity:0}, "start+=4.5")
+
+          .from(time, .3, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=4.5")
+          .from(teams, .3, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=4.7")
+          .from(network, .3, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=4.9")
+          .to(playersafterteams, .5, {opacity:1, ease: Power1.easeIn}, "start+=4")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          // .from(oranges, .3, {top:-10, ease: Power1.easeOut}, "start+=0.5")
+          // .from(oranges, .5, {autoAlpha: 0, ease: Power1.easeOut}, "start+=0.5")
+
+          // .from(ywywh, 1, {top:20}, "start") 
+          // .from(ywywh, .5, {autoAlpha: 0}, "start")
+
+          // .from(lockup, 1, {autoAlpha: 0}, "start+=2.8")
+          // .from(lockup, 1, {scale:1.3}, "start+=2.8")
+
+
+          // frame 1 build out
+
+          // .from(bg2, .5, {autoAlpha: 0}, "start+=3")
+          // .to(lockup, .7, {top:127, left:13, scale:.79, ease: Power1.easeOut}, "start+=5")
+
+          // .from(network, .5, {top:230, ease: Power1.easeOut}, "start+=5")
+          // .from(network, .8, {autoAlpha: 0, ease: Power1.easeOut}, "start+=5")
+
+          // .from(stamp, .5, {top:-50, ease: Power1.easeOut}, "start+=5")
+          // .from(stamp, .9, {autoAlpha: 0, ease: Power1.easeOut}, "start+=5")
+
+          // .from(player1, .6, {top:20, ease: Power1.easeOut}, "start+=5.6")
+          // .from(player1, .6, {autoAlpha: 0, ease: Power1.easeOut}, "start+=5.6")
+
+          // .from(player2, .6, {top:20, ease: Power1.easeOut}, "start+=5.8")
+          // .from(player2, .6, {autoAlpha: 0, ease: Power1.easeOut}, "start+=5.8")
+
+          // .from(player3, .6, {top:20, ease: Power1.easeOut}, "start+=6")
+          // .from(player3, .6, {autoAlpha: 0, ease: Power1.easeOut}, "start+=6")
+
+          ;
+
+
+
+
+         
+
+
+          
+
 
     });
     </script>

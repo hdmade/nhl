@@ -14,90 +14,120 @@ body{
 	position: absolute;
 	width: 300px;
 	height: 250px;
-	background-color: #000000;
+	background-color: #10192c;
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
-	border: 1px solid #fdb813;
+	border: 1px solid #0032a0;
 	box-sizing: border-box;
 }
 
-/* FRAME 1 */
+/* FRAME 2 */
+
+
+#network{
+	opacity: 1;
+	position: absolute;
+	left: 60px;
+	top: 187px;
+	width: 199px;
+	height: 46px;
+	background: url(images/network.png) no-repeat;
+}
+
+#teams{
+	opacity: 1;
+	position: absolute;
+	left: 46px;
+	top: 107px;
+	width: 199px;
+	height: 46px;
+	background: url(images/teams.png) no-repeat;
+}
+
+#time{
+	opacity: 1;
+	position: absolute;
+	left: 56px;
+	top: 83px;
+	width: 188px;
+	height: 15px;
+	background: url(images/time.png) no-repeat;
+}
+
+#playersafterteams{
+	opacity: 0;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 300px;
+	height: 250px;
+	background: url(images/playersafterteams.png) no-repeat;
+}
+
+
+#playersbeforeteams{
+	opacity: 0;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 300px;
+	height: 250px;
+	background: url(images/playersbeforeteams.png) no-repeat;
+}
+
+#bgend{
+	opacity: 0;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bgend.jpg) no-repeat;
+}
+
+
+#planeback{
+	position: absolute;
+	left: -610px;
+	top: 0px;
+	width: 610px;
+	height: 250px;
+	background: url(images/planeback.png) no-repeat;
+}
+
+#planetop{
+	position: absolute;
+	left: -580px;
+	top: 0px;
+	width: 580px;
+	height: 250px;
+	background: url(images/planetop.png) no-repeat;
+}
+
+
+
+#logolarge{
+	position: absolute;
+	left: 38px;
+	top: 13px;
+	width: 300px;
+	height: 250px;
+	background: url(images/logolarge.png) no-repeat;
+}
+
+
 #bg1{
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 300px;
 	height: 250px;
-	background: url(images/bg1.jpg) no-repeat;
-}
-
-#lockup{
-	position: absolute;
-	left: 44px;
-	top: 38px;
-	width: 212px;
-	height: 172px;
-	background: url(images/lockup.png) no-repeat;
+	background: url(images/bgdarkblue.png) no-repeat;
 }
 
 
 
-/* ENDFRAME */
-#lines_left{
-	position: absolute;
-	left: -300px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/lines_left.png) no-repeat;
-}
 
-#lines_right{
-	position: absolute;
-	left: 300px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/lines_right.png) no-repeat;
-}
-
-#bg2{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/bg2.jpg) no-repeat;
-}
-
-
-#faceoff{
-	position: absolute;
-	left: 100px;
-	top: 32px;
-	width: 99px;
-	height: 62px;
-	background: url(images/faceoff.png) no-repeat;
-}
-
-
-#info{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/info.jpg) no-repeat;
-}
-
-#network{
-	position: absolute;
-	left: 24px;
-	top: 194px;
-	width: 248px;
-	height: 187px;
-	background: url(images/network.png) no-repeat;
-}
 
 
