@@ -28,8 +28,8 @@ body{
 #network{
 	opacity: 1;
 	position: absolute;
-	left: 60px;
-	top: 187px;
+	left: 61px;
+	top: 206px;
 	width: 199px;
 	height: 46px;
 	background: url(images/network.png) no-repeat;
@@ -38,21 +38,21 @@ body{
 #teams{
 	opacity: 1;
 	position: absolute;
-	left: 46px;
-	top: 107px;
-	width: 199px;
-	height: 46px;
+	left: 43px;
+	top: 142px;
+	width: 204px;
+	height: 48px;
 	background: url(images/teams.png) no-repeat;
 }
 
-#time{
+#logohoriz{
 	opacity: 1;
 	position: absolute;
-	left: 56px;
-	top: 83px;
-	width: 188px;
-	height: 15px;
-	background: url(images/time.png) no-repeat;
+	left: 11px;
+	top: 81px;
+	width: 276px;
+	height: 42px;
+	background: url(images/logohoriz.png) no-repeat;
 }
 
 #playersafterteams{
@@ -117,13 +117,13 @@ body{
 }
 
 
-#bg1{
+#bgdarkblue{
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 300px;
 	height: 250px;
-	background: url(images/bgdarkblue.png) no-repeat;
+	background: url(images/bgdarkblue.jpg) no-repeat;
 }
 
 
