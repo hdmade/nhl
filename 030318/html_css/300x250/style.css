@@ -28,7 +28,7 @@ body{
 #network{
 	opacity: 1;
 	position: absolute;
-	left: 61px;
+	left: 50px;
 	top: 206px;
 	width: 199px;
 	height: 46px;
@@ -38,7 +38,7 @@ body{
 #teams{
 	opacity: 1;
 	position: absolute;
-	left: 43px;
+	left: 46px;
 	top: 142px;
 	width: 204px;
 	height: 48px;
