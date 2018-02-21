@@ -28,8 +28,8 @@ body{
 #network{
 	opacity: 1;
 	position: absolute;
-	left: 384px;
-	top: 44px;
+	left: 415px;
+	top: 52px;
 	width: 198px;
 	height: 29px;
 	background: url(images/network.png) no-repeat;
@@ -38,8 +38,8 @@ body{
 #teams{
 	opacity: 1;
 	position: absolute;
-	left: 339px;
-	top: 25px;
+	left: 381px;
+	top: 21px;
 	width: 277px;
 	height: 14px;
 	background: url(images/teams.png) no-repeat;
@@ -48,7 +48,7 @@ body{
 #logohoriz{
 	opacity: 1;
 	position: absolute;
-	left: 90px;
+	left: 79px;
 	top: 13px;
 	width: 239px;
 	height: 61px;
