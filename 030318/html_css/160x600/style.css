@@ -28,9 +28,9 @@ body{
 #network{
 	opacity: 1;
 	position: absolute;
-	left: 31px;
+	left: 34px;
 	top: 308px;
-	width: 96px;
+	width: 97px;
 	height: 59px;
 	background: url(images/network.png) no-repeat;
 }
@@ -38,10 +38,10 @@ body{
 #teams{
 	opacity: 1;
 	position: absolute;
-	left: 10px;
+	left: 12px;
 	top: 264px;
-	width: 136px;
-	height: 31px;
+	width: 137px;
+	height: 32px;
 	background: url(images/teams.png) no-repeat;
 }
 

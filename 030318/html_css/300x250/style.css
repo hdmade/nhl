@@ -28,10 +28,10 @@ body{
 #network{
 	opacity: 1;
 	position: absolute;
-	left: 49px;
+	left: 50px;
 	top: 206px;
-	width: 199px;
-	height: 46px;
+	width: 195px;
+	height: 29px;
 	background: url(images/network.png) no-repeat;
 }
 
