@@ -22,9 +22,6 @@ body{
 	box-sizing: border-box;
 }
 
-/* FRAME 2 */
-
-
 #network{
 	opacity: 1;
 	position: absolute;
@@ -105,14 +102,12 @@ body{
 	background: url(images/planetop.png) no-repeat;
 }
 
-
-
 #logolarge{
 	position: absolute;
 	left: 38px;
 	top: 13px;
-	width: 300px;
-	height: 250px;
+	width: 224px;
+	height: 224px;
 	background: url(images/logolarge.png) no-repeat;
 }
 
