@@ -28,30 +28,30 @@ body{
 #network{
 	opacity: 1;
 	position: absolute;
-	left: 415px;
-	top: 52px;
-	width: 198px;
-	height: 29px;
+	left: 412px;
+	top: 60px;
+	width: 158px;
+	height: 21px;
 	background: url(images/network.png) no-repeat;
 }
 
 #teams{
 	opacity: 1;
 	position: absolute;
-	left: 381px;
-	top: 21px;
-	width: 277px;
-	height: 14px;
+	left: 403px;
+	top: 7px;
+	width: 172px;
+	height: 40px;
 	background: url(images/teams.png) no-repeat;
 }
 
 #logohoriz{
 	opacity: 1;
 	position: absolute;
-	left: 79px;
-	top: 13px;
-	width: 239px;
-	height: 61px;
+	left: 113px;
+	top: 15px;
+	width: 216px;
+	height: 55px;
 	background: url(images/logohoriz.png) no-repeat;
 }
 
@@ -112,7 +112,7 @@ body{
 	left: 217px;
 	top: 6px;
 	width: 489px;
-	height: 75px;
+	height: 76px;
 	background: url(images/logolarge.png) no-repeat;
 }
 
