@@ -16,6 +16,7 @@
 
       <div id="animation">
 
+        
         <div id="bg2"></div>
         <div id="info"></div>
         <div id="network"></div>
@@ -23,7 +24,10 @@
         <div id="bg1"></div>
         <div id="lines_right"></div>
         <div id="lines_left"></div>
-
+        
+        <div id="tagline"></div>
+<!--         <div id="flare"></div>
+ -->
         <div id="lockup"></div>
         
       </div>        
@@ -50,25 +54,32 @@
             $tag2a = $("#tag2a"),
             $tag2b = $("#tag2b"),
             $tag3 = $("#tag3"),
+            $tagline = $("#tagline"),
+
             tl;
 
         tl = new TimelineMax({repeat:1, repeatDelay:3});
 
         tl.add("start")
-          .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
+          .from($animation, 0.5, {autoAlpha:0}, "+=0.5")
 
           .add("frame2", "+=1.0")
           .to($lockup, 0.25, {opacity:0}, "frame2")
-      
 
           .add("endframe", "+=.25")
           .from($lines_left, 1.25, {opacity:0, left:900, ease: Power2.easeOut}, "endframe")
           .from($lines_right, 1.25, {opacity:0, left:-600, ease: Power2.easeOut}, "endframe")
-          .to($tag3, 0.25, {opacity:0}, "endframe")
-          .to($bg1, 1, {opacity:0}, "endframe+=0.25")
-          .from($faceoff, 0.25, {opacity:0}, "endframe+=1.5")
-          .from($info, 0.25, {opacity:0}, "+=0.1")
-          .from($network, 0.25, {opacity:0}, "+=0.1");
+          
+          //tagline here
+          .from($tagline, 1.25, {opacity:0, ease: Power2.easeOut}, "endframe+=.5")
+          .to($tagline, .5, {opacity:0, ease: Power2.easeOut}, "endframe+=2.9")
+          // .to($tag3, 0.25, {opacity:0}, "endframe")
+
+          //updated timing below
+          .to($bg1, 1, {opacity:0}, "endframe+=0")
+          .from($faceoff, 0.25, {opacity:0}, "+=.5")
+          .from($info, 0.25, {opacity:0}, "+=.1")
+          .from($network, 0.25, {opacity:0}, "+=.1");
 
     });
     </script>
