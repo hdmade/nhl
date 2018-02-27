@@ -32,6 +32,24 @@ body{
 	background: url(images/bg1.jpg) no-repeat;
 }
 
+#tagline{
+	position: absolute;
+	left: 100px;
+	top: 32px;
+	width: 532px;
+	height: 36px;
+	background: url(images/tagline.png) no-repeat;
+}
+
+#flare{
+	position: absolute;
+	left: 100px;
+	top: 48px;
+	width: 327px;
+	height: 79px;
+	background: url(images/flare.png) no-repeat;
+}
+
 #lockup{
 	position: absolute;
 	left: 193px;
