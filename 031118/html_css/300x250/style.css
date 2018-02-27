@@ -78,7 +78,7 @@ body{
 		position: absolute;
 		left: 16px;
 		top: 0px;
-		width: 221px;
+		width: 250px;
 		height: 75px;
 		overflow: hidden;
 	}
@@ -88,8 +88,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 15px;
-	width: 221px;
-	height: 60px;
+	width: 250px;
+	height: 57px;
 	background: url(images/teams.png) no-repeat;
 }
 
