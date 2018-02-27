@@ -61,6 +61,15 @@ body{
 	height: 250px;
 	background: url(images/lines_right.png) no-repeat;
 }
+#tagline(
+    position: absolute;
+	left: 11px;
+	top: 123px;
+	width: 296px;
+	height: 27px;
+	background: url(images/tagline.png) no-repeat;
+
+)
 
 #bg2{
 	position: absolute;
