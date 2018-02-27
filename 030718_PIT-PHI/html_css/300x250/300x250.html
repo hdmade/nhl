@@ -16,7 +16,7 @@
 
       <div id="animation">
           
-        <div id="tagline"></div>
+        
         <div id="bg2"></div>
         <div id="info"></div>
         <div id="network"></div>
@@ -24,6 +24,7 @@
         <div id="bg1"></div>
         <div id="lines_right"></div>
         <div id="lines_left"></div>
+          <div id="tagline"></div>
         <div id="lockup"></div>
         
       </div>        
@@ -65,12 +66,17 @@
           .add("endframe", "+=.25")
           .from($lines_left, 1.25, {opacity:0, left:600, ease: Power2.easeOut}, "endframe")
           .from($lines_right, 1.25, {opacity:0, left:-600, ease: Power2.easeOut}, "endframe")
-          .to($tagline, 0.5, {opacity:0}, "endframe+=0.1")
-          .to($tag3, 0.25, {opacity:0}, "endframe")
-          .to($bg1, 1, {opacity:0}, "endframe+=0.5")
-          .from($faceoff, 0.25, {opacity:0}, "endframe+=1.5")
-          .from($info, 0.25, {opacity:0}, "+=0.1")
-          .from($network, 0.25, {opacity:0}, "+=0.1");
+        
+          //tagline here
+          .from($tagline, 1.25, {opacity:0, ease: Power2.easeOut}, "start+=1")
+          .to($tagline, .5, {opacity:0, ease: Power2.easeOut}, "start+=2.9")
+          // .to($tag3, 0.25, {opacity:0}, "endframe")
+
+          //updated timing below
+          .to($bg1, 1, {opacity:0}, "endframe+=0")
+          .from($faceoff, 0.25, {opacity:0}, "+=.5")
+          .from($info, 0.25, {opacity:0}, "+=.1")
+          .from($network, 0.25, {opacity:0}, "+=.1");
           
 
     });
