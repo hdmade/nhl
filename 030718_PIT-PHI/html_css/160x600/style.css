@@ -23,6 +23,15 @@ body{
 }
 
 /* FRAME 1 */
+#tagline{
+	position: absolute;
+	left: 3px;
+	top: 236px;
+	width: 154px;
+	height: 127px;
+	background: url(images/tagline.png) no-repeat;
+}
+
 #bg1{
 	position: absolute;
 	left: 0px;

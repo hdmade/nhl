@@ -27,9 +27,9 @@ body{
 #tagline{
 	position: absolute;
 	left: 20px;
-	top: 90px;
+	top: 46px;
 	width: 260px;
-	height: 81px;
+	height: 157px;
 	background: url(images/tagline.png) no-repeat;
 }
 
