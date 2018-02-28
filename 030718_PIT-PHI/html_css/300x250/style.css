@@ -23,6 +23,17 @@ body{
 }
 
 /* FRAME 1 */
+
+#tagline{
+	position: absolute;
+	left: 20px;
+	top: 90px;
+	width: 260px;
+	height: 81px;
+	background: url(images/tagline.png) no-repeat;
+}
+
+
 #bg1{
 	position: absolute;
 	left: 0px;
@@ -61,14 +72,6 @@ body{
 	height: 250px;
 	background: url(images/lines_right.png) no-repeat;
 }
-#tagline{
-    position: absolute;
-	left: 11px;
-	top: 123px;
-	width: 296px;
-	height: 27px;
-	background: url(images/tagline.png) no-repeat;
-}
 
 
 #bg2{
@@ -103,7 +106,7 @@ body{
 #network{
 	position: absolute;
 	left: 24px;
-	top: 194px;
+	top: 197px;
 	width: 248px;
 	height: 187px;
 	background: url(images/network.png) no-repeat;
