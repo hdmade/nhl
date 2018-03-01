@@ -69,8 +69,8 @@
          
 
           .add("endframe", "+=.25")
-          .from($lines_left, 1.25, {opacity:0, left:160, ease: Power2.easeOut}, "endframe")
-          .from($lines_right, 1.25, {opacity:0, left:-665, ease: Power2.easeOut}, "endframe")
+          .from($lines_left, 1.25, {opacity:0, left:160, ease: Power2.easeOut}, "endframe+=1.7")
+          .from($lines_right, 1.25, {opacity:0, left:-665, ease: Power2.easeOut}, "endframe+=1.7")
         
           //tagline here
           .from($tagline, 1.25, {opacity:0, ease: Power2.easeOut}, "start+=2.3")
@@ -79,7 +79,7 @@
 
           //updated timing below
           .to($bg1, 1, {opacity:0}, "endframe+=2")
-          .from($faceoff, 0.25, {opacity:0}, "+=.5")
+          .from($faceoff, 0.25, {opacity:0}, "+=.1")
           .from($info, 0.25, {opacity:0}, "+=.1")
           .from($network, 0.25, {opacity:0}, "+=.1");
 
