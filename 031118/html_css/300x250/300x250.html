@@ -24,6 +24,7 @@
         <div id="bg5"></div>
         <div id="bg6"></div>
         
+        
         <div id="teams_mask">
           <div id="teams"></div>
         </div>
@@ -43,6 +44,9 @@
         <div id="bg1_mask">
           <div id="bg1"></div>
         </div>
+
+        <div id="tagline"></div>
+
         
         <div id="lines_right"></div>
         <div id="lines_left"></div>
@@ -79,6 +83,8 @@
             $gotw_mask = $("#gotw_mask"),
             $time = $("#time"),
             $time_mask = $("#time_mask"),
+            $tagline = $("#tagline"),
+
             tl;
 
         tl = new TimelineMax({repeat:1, repeatDelay:.5});
@@ -87,7 +93,8 @@
           .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
 
           .add("frame2", "+=1.0")
-          .to($lockup, 0.25, {opacity:0}, "frame2")
+          .to($lockup, 0.5, {opacity:0}, "frame2")
+          .to($tagline, 0.5, {opacity:0}, "frame3+=1.8")
           .add("endframe", "+=.25")
           
           .from($teams, 0.6, {xPercent:-100, ease: Power2.easeOut}, "teams+=0.2")
