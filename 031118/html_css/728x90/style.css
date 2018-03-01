@@ -42,6 +42,14 @@ body{
 	background: url(images/lockup.jpg) no-repeat;
 }
 
+#tagline{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/tagline.png) no-repeat;
+}
 
 
 /* ENDFRAME */

@@ -43,6 +43,14 @@ body{
 }
 
 
+#tagline{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/tagline.png) no-repeat;
+}
 
 /* ENDFRAME */
 
