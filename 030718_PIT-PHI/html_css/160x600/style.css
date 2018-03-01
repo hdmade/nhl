@@ -25,7 +25,7 @@ body{
 /* FRAME 1 */
 #tagline{
 	position: absolute;
-	left: 3px;
+	left: 2px;
 	top: 236px;
 	width: 154px;
 	height: 127px;
@@ -101,7 +101,7 @@ body{
 
 #network{
 	position: absolute;
-	left: 15px;
+	left: 13px;
 	top: 296px;
 	width: 131px;
 	height: 27px;
