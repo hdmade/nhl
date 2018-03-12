@@ -1,12 +1,12 @@
 @charset "UTF-8";
-/* CSS Document */
+/* CSS Document*/
 
 body{
 	background-color:#333;
 	margin:0;
 }
 
-#animation{
+#animation {
 	visibility: hidden;
 }
 
@@ -18,98 +18,100 @@ body{
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
-	border: 1px solid #fdb813;
+	border: 1px solid #464646;
 	box-sizing: border-box;
 }
 
+.bg {
+		position: absolute;
+		left: -25px;
+		top: 0px;	
+		width: 350px;
+		height: 250px;
+	}
+
 /* FRAME 1 */
 
-#tagline{
-	position: absolute;
-	left: 20px;
-	top: 46px;
-	width: 260px;
-	height: 157px;
-	background: url(images/tagline.png) no-repeat;
-}
+	#tagline {
+		position: absolute;
+		left: 16px;
+		top: 32px;	
+		width: 263px;
+		height: 183px;
+		background-image: url(images/tagline.png);
+	}
 
 
-#bg1{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/bg1.jpg) no-repeat;
-}
+/* END FRAME */
+	
+	#begin {
+		position: absolute;
+		left: 26px;
+		top: 87px;	
+		width: 122px;
+		height: 23px;
+		background-image: url(images/begin.png);
+	}
 
-#lockup{
-	position: absolute;
-	left: 44px;
-	top: 38px;
-	width: 212px;
-	height: 172px;
-	background: url(images/lockup.png) no-repeat;
-}
+	#image {
+		position: absolute;
+		left: 68px;
+		top: 18px;	
+		width: 232px;
+		height: 232px;
+		background-image: url(images/image.png);
+	}
 
+	#logo_nbc {
+		position: absolute;
+		left: 21px;
+		top: 122px;	
+		width: 34px;
+		height: 21px;
+		background-image: url(images/logo_nbc.png);
+	}
 
+	#logo_nbcsn {
+		position: absolute;
+		left: 67px;
+		top: 120px;	
+		width: 37px;
+		height: 29px;
+		background-image: url(images/logo_nbcsn.png);
+	}
 
-/* ENDFRAME */
-#lines_left{
-	position: absolute;
-	left: -300px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/lines_left.png) no-repeat;
-}
+	#logo_cnbc {
+		position: absolute;
+		left: 119px;
+		top: 121px;	
+		width: 34px;
+		height: 27px;
+		background-image: url(images/logo_cnbc.png);
+	}
 
-#lines_right{
-	position: absolute;
-	left: 300px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/lines_right.png) no-repeat;
-}
+	#logo_usa {
+		position: absolute;
+		left: 26px;
+		top: 181px;	
+		width: 34px;
+		height: 15px;
+		background-image: url(images/logo_usa.png);
+	}
 
+	#logo_app {
+		position: absolute;
+		left: 74px;
+		top: 174px;	
+		width: 29px;
+		height: 29px;
+		background-image: url(images/logo_app.png);
+	}
 
-#bg2{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/bg2.jpg) no-repeat;
-}
-
-
-#faceoff{
-	position: absolute;
-	left: 100px;
-	top: 32px;
-	width: 99px;
-	height: 62px;
-	background: url(images/faceoff.png) no-repeat;
-}
-
-
-#info{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/info.jpg) no-repeat;
-}
-
-#network{
-	position: absolute;
-	left: 24px;
-	top: 197px;
-	width: 248px;
-	height: 187px;
-	background: url(images/network.png) no-repeat;
-}
-
-
+	#scp {
+		position: absolute;
+		left: 11px;
+		top: 16px;	
+		width: 161px;
+		height: 58px;
+		background-image: url(images/scp.png);
+	}
