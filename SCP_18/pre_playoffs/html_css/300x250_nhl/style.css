@@ -92,20 +92,30 @@ body{
 	#logo_usa {
 		position: absolute;
 		left: 24px;
-		top: 181px;	
+		top: 171px;	
 		width: 34px;
 		height: 15px;
 		background-image: url(images/logo_usa.png);
 	}
 
+    #logo_nhln {
+		position: absolute;
+		left: 69px;
+		top: 165px;	
+		width: 39px;
+		height: 28px;
+		background-image: url(images/logo_nhln.png);
+	}
+
 	#logo_app {
 		position: absolute;
-		left: 74px;
-		top: 174px;	
+		left: 27px;
+		top: 207px;	
 		width: 29px;
 		height: 29px;
 		background-image: url(images/logo_app.png);
 	}
+
 
 	#scp {
 		position: absolute;
