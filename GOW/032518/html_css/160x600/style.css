@@ -67,7 +67,7 @@ body{
 #teams{
 	position: absolute;
 	left: 0px;
-	top: 140px;
+	top: 129px;
 	width: 149px;
 	height: 48px;
 	background: url(images/teams.png) no-repeat;
@@ -84,7 +84,7 @@ body{
 #gotw{
 	position: absolute;
 	left: 0px;
-	top: 188px;
+	top: 191px;
 	width: 160px;
 	height: 12px;
 	background: url(images/gotw.png) no-repeat;
@@ -101,7 +101,7 @@ body{
 #time{
 	position: absolute;
 	left: 0px;
-	top: 200px;
+	top: 204px;
 	width: 142px;
 	height: 27px;
 	background: url(images/time.png) no-repeat;
@@ -190,7 +190,7 @@ body{
 #network{
 	position: absolute;
 	left: 5px;
-	top: 237px;
+	top: 238px;
 	width: 248px;
 	height: 87px;
 	background: url(images/network.png) no-repeat;
