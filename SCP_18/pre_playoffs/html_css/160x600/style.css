@@ -46,10 +46,10 @@ body{
 	
 	#begin {
 		position: absolute;
-		left: 13px;
+		left: 16px;
 		top: 273px;	
-		width: 129px;
-		height: 24px;
+		width: 126px;
+		height: 23px;
 		background-image: url(images/begin.png);
 	}
 

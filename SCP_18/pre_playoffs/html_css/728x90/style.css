@@ -47,8 +47,8 @@ body{
 	#begin {
 		position: absolute;
 		left: 453px;
-		top: 9px;	
-		width: 164px;
+		top: 8px;	
+		width: 163px;
 		height: 30px;
 		background-image: url(images/begin.png);
 	}
