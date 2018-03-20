@@ -44,6 +44,7 @@ body{
 
 /* END FRAME */
 	
+/*
 	#begin {
 		position: absolute;
 		left: 453px;
@@ -52,6 +53,7 @@ body{
 		height: 30px;
 		background-image: url(images/begin.png);
 	}
+*/
 
 	#image {
 		position: absolute;
@@ -62,9 +64,18 @@ body{
 		background-image: url(images/image.png);
 	}
 
+    #tag {
+		position: absolute;
+		left: 333px;
+		top: 12px;	
+		width: 357px;
+		height: 25px;
+		background-image: url(images/tag.png);
+	}
+
 	#logo_nbc {
 		position: absolute;
-		left: 389px;
+		left: 367px;
 		top: 47px;	
 		width: 45px;
 		height: 28px;
@@ -73,7 +84,7 @@ body{
 
 	#logo_nbcsn {
 		position: absolute;
-		left: 450px;
+		left: 428px;
 		top: 44px;	
 		width: 49px;
 		height: 38px;
@@ -82,7 +93,7 @@ body{
 
 	#logo_cnbc {
 		position: absolute;
-		left: 518px;
+		left: 496px;
 		top: 46px;	
 		width: 45px;
 		height: 35px;
@@ -91,7 +102,7 @@ body{
 
 	#logo_usa {
 		position: absolute;
-		left: 582px;
+		left: 560px;
 		top: 54px;	
 		width: 41px;
 		height: 19px;
@@ -100,16 +111,25 @@ body{
 
 	#logo_app {
 		position: absolute;
-		left: 643px;
+		left: 622px;
 		top: 46px;	
 		width: 35px;
 		height: 35px;
 		background-image: url(images/logo_app.png);
 	}
 
+     #cta {
+		position: absolute;
+		left: 703px;
+		top: 0px;	
+		width: 24px;
+		height: 89px;
+		background-image: url(images/cta.png);
+	}
+
 	#scp {
 		position: absolute;
-		left: 181px;
+		left: 157px;
 		top: 17px;	
 		width: 162px;
 		height: 58px;
