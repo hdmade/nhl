@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>NHL Stanley Cup Playoffs 2017 | 160x600</title>
+    <title>NHL Stanley Cup Playoffs 2018 | 160x600</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -21,14 +21,14 @@
       <img src="images/bg.jpg" class="bg" />
         
         <!-- END FRAME -->
-
+          <div id="tag"></div>
         <div id="logo_nbc" class="networks"></div>
         <div id="logo_nbcsn" class="networks"></div>
         <div id="logo_cnbc" class="networks"></div>
         <div id="logo_usa" class="networks"></div>
         <div id="logo_app" class="networks"></div>
-
-        <div id="begin"></div>
+          <div id="cta"></div>
+        
 
         <div id="scp"></div> 
 
@@ -50,9 +50,10 @@
         var $animation = $("#animation"),
 
             $bg = $(".bg"),
-            $begin = $("#begin"),
+            $tag = $("#tag"),
             $image = $("#image"),
             $networks = $(".networks"),
+            $cta = $("#cta"),
             $scp = $("#scp"),
             $tagline = $("#tagline"),
             tl;
@@ -72,8 +73,9 @@
           .to($bg, 0.35, {y:30, ease: Power1.easeOut}, "endframe")
           .from($image, 0.35, {yPercent:-100, ease: Power1.easeOut}, "endframe")
           .from($scp, 0.35, {y:-25, opacity:0}, "endframe")
-          .from($begin, 0.35, {opacity:0}, "+=0.5")
+          .from($tag, 0.35, {opacity:0}, "+=0.5")
           .staggerFrom($networks, 0.35, {opacity:0}, 0.2, "+=0.35")
+          .from($cta, 0.35, {opacity:0}, "+=0.5")
 
           .to($bg, 4, {scale:1}, "start")
 
