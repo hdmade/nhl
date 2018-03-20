@@ -78,7 +78,7 @@
           .from($scp, 0.35, {x:-25, opacity:0}, "endframe")
           .from($tag, 0.35, {opacity:0}, "+=0.5")
           .staggerFrom($networks, 0.35, {opacity:0}, 0.2, "+=0.35")
-          .from($cta, 0.35, {opacity:0}, "+=0.5")
+          .from($cta, 0.25, {yPercent:100, x:-20, ease: Power1.easeOut}, "+=0.2")
 
           .to($bg, 4, {scale:1}, "start")
 
