@@ -113,9 +113,9 @@ body{
 #gotw{
 	position: absolute;
 	left: 0px;
-	top: 84px;
-	width: 135px;
-	height: 10px;
+	top: 90px;
+	width: 116px;
+	height: 8px;
 	background: url(images/gotw.png) no-repeat;
 }
 
@@ -130,9 +130,9 @@ body{
 #time{
 	position: absolute;
 	left: 0px;
-	top: 98px;
-	width: 135px;
-	height: 23px;
+	top: 101px;
+	width: 115px;
+	height: 25px;
 	background: url(images/time.png) no-repeat;
 }
 

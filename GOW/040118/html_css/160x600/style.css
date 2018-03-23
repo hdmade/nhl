@@ -67,7 +67,7 @@ body{
 #teams{
 	position: absolute;
 	left: 0px;
-	top: 129px;
+	top: 120px;
 	width: 134px;
 	height: 52px;
 	background: url(images/teams.png) no-repeat;
@@ -84,7 +84,7 @@ body{
 #gotw{
 	position: absolute;
 	left: 0px;
-	top: 191px;
+	top: 193px;
 	width: 137px;
 	height: 10px;
 	background: url(images/gotw.png) no-repeat;
