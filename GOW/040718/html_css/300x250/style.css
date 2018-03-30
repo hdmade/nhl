@@ -97,7 +97,7 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 15px;
-	width: 148px;
+	width: 150px;
 	height: 58px;
 	background: url(images/teams.png) no-repeat;
 }
@@ -131,8 +131,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 101px;
-	width: 115px;
-	height: 25px;
+	width: 109px;
+	height: 28px;
 	background: url(images/time.png) no-repeat;
 }
 

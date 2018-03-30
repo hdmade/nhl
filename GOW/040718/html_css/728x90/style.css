@@ -84,7 +84,7 @@ body{
 #gotw{
 	position: absolute;
 	left: 0px;
-	top: 44px;
+	top: 45px;
 	width: 182px;
 	height: 12px;
 	background: url(images/gotw.png) no-repeat;
@@ -101,9 +101,9 @@ body{
 #time{
 	position: absolute;
 	left: 0px;
-	top: 56px;
-	width: 154px;
-	height: 25px;
+	top: 55px;
+	width: 107px;
+	height: 27px;
 	background: url(images/time.png) no-repeat;
 }
 
@@ -189,10 +189,10 @@ body{
 
 #network{
 	position: absolute;
-	left: 162px;
-	top: 49px;
-	width: 248px;
-	height: 87px;
+	left: 146px;
+	top: 52px;
+	width: 93px;
+	height: 32px;
 	background: url(images/network.png) no-repeat;
 }
 
