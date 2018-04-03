@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>NHL Stanley Cup Playoffs 2017 | 300x250</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=300, height=250">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      
+      
+      <div id="animation">
+
+      <img src="images/bg.jpg" class="bg" />
+        
+        <!-- END FRAME -->
+        <div id="tag"></div>
+          
+        <div id="logo_nbc" class="networks"></div>
+        <div id="logo_nbcsn" class="networks"></div>
+<!--
+        <div id="logo_cnbc" class="networks"></div>
+        <div id="logo_usa" class="networks"></div>
+-->
+        <div id="logo_app" class="networks"></div>
+          
+        
+
+        <div id="scp"></div> 
+
+        <div id="image"></div>
+          <div id="cta"></div>
+
+        <!-- FRAME 1 -->
+        <div id="tagline"></div>
+
+      </div>
+
+    </div>
+			
+		<!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $bg = $(".bg"),
+            $tag = $("#tag"),
+            $cta = $("#cta"),
+            $image = $("#image"),
+            $networks = $(".networks"),
+            
+            $scp = $("#scp"),
+            $tagline = $("#tagline"),
+            tl;
+
+        tl = new TimelineMax({repeat:2, repeatDelay:3.5});
+
+        tl.set($bg, {scale:1.25})
+
+          .add("start")
+          .from($animation, 0.25, {autoAlpha:0}, "start+=0.5")
+
+          .add("frame1", "+=0.75")
+          .from($tagline, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame1")   
+
+          .add("endframe", "+=1.85")
+          .to($tagline, 0.25, {opacity:0}, "endframe")
+          .to($bg, 0.35, {x:-25, ease: Power1.easeOut}, "endframe")
+          .from($image, 0.35, {xPercent:100, ease: Power1.easeOut}, "endframe")
+          .from($scp, 0.35, {x:-25, opacity:0}, "endframe")
+          .from($tag, 0.35, {opacity:0}, "+=0.5")
+          .staggerFrom($networks, 0.35, {opacity:0}, 0.2, "+=0.35")
+          .from($cta, 0.25, {yPercent:100, x:-20, ease: Power1.easeOut}, "+=0.2")
+
+          .to($bg, 4, {scale:1}, "start")
+
+
+    });
+    </script>
+    
+
+</body>
+</html>
