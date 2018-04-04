@@ -36,8 +36,8 @@ body{
 		position: absolute;
 		left: 25px;
 		top: 20px;	
-		width: 246px;
-		height: 66px;
+		width: 245px;
+		height: 65px;
 		background-image: url(images/tagline.png);
 	}
 
@@ -55,46 +55,46 @@ body{
 
 	#logo_nbc {
 		position: absolute;
-		left: 15px;
-		top: 65px;	
-		width: 43px;
-		height: 27px;
+		left: 16px;
+		top: 67px;	
+		width: 38px;
+		height: 23px;
 		background-image: url(images/logo_nbc.png);
 	}
 
 	#logo_nbcsn {
 		position: absolute;
-		left: 71px;
-		top: 65px;	
-		width: 143px;
-		height: 29px;
+		left: 72px;
+		top: 63px;	
+		width: 42px;
+		height: 31px;
 		background-image: url(images/logo_nbcsn.png);
 	}
 
 	#logo_cnbc {
 		position: absolute;
-		left: 128px;
-		top: 62px;	
-		width: 41px;
-		height: 32px;
+		left: 129px;
+		top: 63px;	
+		width: 38px;
+		height: 29px;
 		background-image: url(images/logo_cnbc.png);
 	}
 
 	#logo_usa {
 		position: absolute;
-		left: 186px;
-		top: 68px;	
-		width: 37px;
-		height: 17px;
+		left: 183px;
+		top: 69px;	
+		width: 36px;
+		height: 16px;
 		background-image: url(images/logo_usa.png);
 	}
 
 	#logo_app {
 		position: absolute;
-		left: 230px;
-		top: 61px;	
-		width: 33px;
-		height: 34px;
+		left: 236px;
+		top: 63px;	
+		width: 29px;
+		height: 29px;
 		background-image: url(images/logo_app.png);
 	}
 

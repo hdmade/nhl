@@ -68,26 +68,26 @@ body{
 		position: absolute;
 		left: 333px;
 		top: 12px;	
-		width: 357px;
+		width: 355px;
 		height: 25px;
 		background-image: url(images/tag.png);
 	}
 
 	#logo_nbc {
 		position: absolute;
-		left: 387px;
+		left: 367px;
 		top: 47px;	
-		width: 43px;
-		height: 27px;
+		width: 45px;
+		height: 28px;
 		background-image: url(images/logo_nbc.png);
 	}
 
 	#logo_nbcsn {
 		position: absolute;
-		left: 443px;
-		top: 48px;	
-		width: 143px;
-		height: 29px;
+		left: 428px;
+		top: 44px;	
+		width: 49px;
+		height: 38px;
 		background-image: url(images/logo_nbcsn.png);
 	}
 
@@ -111,10 +111,10 @@ body{
 
 	#logo_app {
 		position: absolute;
-		left: 602px;
+		left: 621px;
 		top: 46px;	
-		width: 33px;
-		height: 34px;
+		width: 35px;
+		height: 35px;
 		background-image: url(images/logo_app.png);
 	}
 

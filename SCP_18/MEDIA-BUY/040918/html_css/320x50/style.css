@@ -44,8 +44,18 @@ body{
 
 /* END FRAME */
 
+#logo {
+		position: absolute;
+		left: 126px;
+		top: 12px;	
+		width: 182px;
+		height: 28px;
+		background-image: url(images/logo.png);
+	}
+
+/*
 	#logo_nbc {
-	/* ADJUST POSITION */
+	 
 		position: absolute;
 		left: 263px;
 		top: 10px;	
@@ -53,9 +63,11 @@ body{
 		height: 30px;
 		background-image: url(images/logo_nbc.png);
 	}
+*/
 
+/*
 	#logo_nbcsn {
-	/* ADJUST POSITION */
+	 
 		position: absolute;
 		left: 262px;
 		top: 5px;	
@@ -63,9 +75,11 @@ body{
 		height: 40px;
 		background-image: url(images/logo_nbcsn.png);
 	}
+*/
 
+/*
 	#logo_cnbc {
-	/* ADJUST POSITION */
+	 
 		position: absolute;
 		left: 263px;
 		top: 6px;	
@@ -73,9 +87,11 @@ body{
 		height: 39px;
 		background-image: url(images/logo_cnbc.png);
 	}
+*/
 
+/*
 	#logo_usa {
-	/* ADJUST POSITION */
+	 
 		position: absolute;
 		left: 263px;
 		top: 13px;	
@@ -83,6 +99,7 @@ body{
 		height: 23px;
 		background-image: url(images/logo_usa.png);
 	}
+*/
 
 	#scp {
 	/* ADJUST POSITION */
@@ -94,19 +111,21 @@ body{
 		background-image: url(images/scp.png);
 	}
 
+/*
     #tag {
-	/* ADJUST POSITION, WIDTH */
+	 
 		position: absolute;
 		left: 123px;
-		top: 5px;	
-		width: 132px;
-		height: 36px;
+		top: 7px;	
+		width: 131px;
+		height: 35px;
 		background-image: url(images/tag.png);
 	}
+*/
 
 /*
 	#tunein {
-	 ADJUST POSITION, WIDTH 
+	 
 		position: absolute;
 		left: 118px;
 		top: 5px;	

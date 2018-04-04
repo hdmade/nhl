@@ -66,10 +66,10 @@ body{
 
     #tag {
 		position: absolute;
-		left: 21px;
+		left: 23px;
 		top: 76px;	
-		width: 175px;
-		height: 47px;
+		width: 173px;
+		height: 46px;
 		background-image: url(images/tag.png);
 	}
 
@@ -94,9 +94,9 @@ body{
 	#logo_cnbc {
 		position: absolute;
 		left: 122px;
-		top: 129px;	
+		top: 132px;	
 		width: 34px;
-		height: 27px;
+		height: 26px;
 		background-image: url(images/logo_cnbc.png);
 	}
 
@@ -111,8 +111,8 @@ body{
 
 	#logo_app {
 		position: absolute;
-		left: 125px;
-		top: 131px;	
+		left: 75px;
+		top: 174px;	
 		width: 29px;
 		height: 29px;
 		background-image: url(images/logo_app.png);
