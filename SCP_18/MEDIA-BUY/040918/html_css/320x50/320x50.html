@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <meta name="ad.size" content="width=320, height=50">
-    <script src="scripts/EBLoader.js"></script>
+     <script src="scripts/EBLoader.js"></script>
 
 </head>
 <body>
@@ -68,7 +68,7 @@
           .to($tagline, 0.25, {opacity:0}, "endframe")
           .from($scp, 0.35, {x:-25, opacity:0}, "endframe")
           .from($tag, 0.35, {opacity:0}, "+=0.65")
-          .staggerFrom($networks, 0.35, {opacity:0}, 0.2)
+          .from($networks, 0.35, {opacity:0}, 4)
 
           .to($bg, 4, {scale:1}, "start")
 
