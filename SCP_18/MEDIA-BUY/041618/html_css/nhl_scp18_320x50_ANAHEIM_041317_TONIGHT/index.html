@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 
-    <title>NHL Stanley Cup Playoffs 2017 | 300x250</title>
+    <title>NHL Stanley Cup Playoffs 2017 | 320x50</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <meta name="ad.size" content="width=300, height=250">
+    <meta name="ad.size" content="width=320, height=50">
     <script src="scripts/EBLoader.js"></script>
 
 </head>
@@ -21,17 +21,14 @@
         <!-- END FRAME -->
 
         <!-- TURN ON/OFF THE LOGO FOR THIS GAME -->
-            <!-- <div id="logo_nbc" class="networks"></div> -->
-            <div id="logo_nbcsn" class="networks"></div>
-            <!--<div id="logo_cnbc" class="networks"></div>
-            <div id="logo_usa" class="networks"></div> -->
+<!--             <div id="logo_nbc" class="networks"></div>-->
+            <div id="logo_nbcsn" class="networks"></div> 
+<!--            <div id="logo_cnbc" class="networks"></div>-->
+            <!-- <div id="logo_usa" class="networks"></div> -->
 
         <div id="tunein"></div>
 
         <div id="scp"></div> 
-
-        <div id="image2"></div>
-        <div id="image1"></div>
 
         <!-- FRAME 1 -->
         <div id="tagline"></div>
@@ -49,11 +46,9 @@
         var $animation = $("#animation"),
 
             $bg = $(".bg"),
-            $image = $("#image1"),
             $networks = $(".networks"),
             $scp = $("#scp"),
             $tagline = $("#tagline"),
-            $teamlogo = $("#image2"),
             $tunein = $("#tunein"),
             tl;
 
@@ -69,9 +64,6 @@
 
           .add("endframe", "+=1.85")
           .to($tagline, 0.25, {opacity:0}, "endframe")
-          .to($bg, 0.35, {x:-25, ease: Power1.easeOut}, "endframe")
-          .from($image, 0.35, {xPercent:100, ease: Power1.easeOut}, "endframe")
-          .from($teamlogo, 0.35, {xPercent:150, y:-70, ease: Power1.easeOut}, "endframe")
           .from($scp, 0.35, {x:-25, opacity:0}, "endframe")
           .from($tunein, 0.35, {opacity:0}, "+=0.65")
           .staggerFrom($networks, 0.35, {opacity:0}, 0.2)

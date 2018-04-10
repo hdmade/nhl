@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
 
-    <title>NHL Stanley Cup Playoffs 2017 | 300x250</title>
+    <title>NHL Stanley Cup Playoffs 2017 | 300x600</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <meta name="ad.size" content="width=300, height=250">
+    <meta name="ad.size" content="width=300, height=600">
     <script src="scripts/EBLoader.js"></script>
 
 </head>
 <body>
 
-    <div id="banner" onclick="javascript:EB.clickthrough();">      
+    <div id="banner" onclick="javascript:EB.clickthrough();">
       
       <div id="animation">
 
@@ -20,27 +20,32 @@
         
         <!-- END FRAME -->
 
-        <!-- TURN ON/OFF THE LOGO FOR THIS GAME -->
-            <!-- <div id="logo_nbc" class="networks"></div> -->
-            <div id="logo_nbcsn" class="networks"></div>
-            <!--<div id="logo_cnbc" class="networks"></div>
-            <div id="logo_usa" class="networks"></div> -->
+        <div id="cta"></div>
 
-        <div id="tunein"></div>
+<!--
+        <div id="logo_nbc" class="networks"></div>
+        <div id="logo_nbcsn" class="networks"></div>
+        <div id="logo_cnbc" class="networks"></div>
+        <div id="logo_usa" class="networks"></div>
+        <div id="logo_app" class="networks"></div>
 
+-->
+          <div id="logos" class="networks"></div>
+          
+<!--        <div id="tunein_stream"></div>-->
+          <div id="tunein_tonight"></div>
         <div id="scp"></div> 
 
-        <div id="image2"></div>
         <div id="image1"></div>
-
+          <div id="image2"></div>
         <!-- FRAME 1 -->
         <div id="tagline"></div>
 
       </div>
 
     </div>
-      
-    <!-- Load TweenMax here -->
+			
+		<!-- Load TweenMax here -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
@@ -49,12 +54,13 @@
         var $animation = $("#animation"),
 
             $bg = $(".bg"),
-            $image = $("#image1"),
+            $tunein_tonight = $("#tunein_tonight"),
+            $image1 = $("#image1"),
+            $image2 = $("#image2"),
             $networks = $(".networks"),
             $scp = $("#scp"),
             $tagline = $("#tagline"),
-            $teamlogo = $("#image2"),
-            $tunein = $("#tunein"),
+            $cta = $("#cta"),
             tl;
 
         tl = new TimelineMax({repeat:2, repeatDelay:3.5});
@@ -69,17 +75,18 @@
 
           .add("endframe", "+=1.85")
           .to($tagline, 0.25, {opacity:0}, "endframe")
-          .to($bg, 0.35, {x:-25, ease: Power1.easeOut}, "endframe")
-          .from($image, 0.35, {xPercent:100, ease: Power1.easeOut}, "endframe")
-          .from($teamlogo, 0.35, {xPercent:150, y:-70, ease: Power1.easeOut}, "endframe")
-          .from($scp, 0.35, {x:-25, opacity:0}, "endframe")
-          .from($tunein, 0.35, {opacity:0}, "+=0.65")
-          .staggerFrom($networks, 0.35, {opacity:0}, 0.2)
+          .to($bg, 0.35, {y:30, ease: Power1.easeOut}, "endframe")
+          .from($image1, 0.35, {yPercent:-100, ease: Power1.easeOut}, "endframe")
+            .from($image2, 0.35, {yPercent:-150, x:100, ease: Power1.easeOut}, "endframe")
+          .from($scp, 0.35, {y:-25, opacity:0}, "endframe")
+          .from($tunein_tonight, 0.35, {opacity:0}, "+=0.5")
+          .staggerFrom($networks, 0.35, {opacity:0}, 0.2, "+=0.35")
+          .from($cta, 0.25, {yPercent:100, ease: Power1.easeOut}, "+=0.2")
 
           .to($bg, 4, {scale:1}, "start")
 
-
     });
+
     </script>
     
 
