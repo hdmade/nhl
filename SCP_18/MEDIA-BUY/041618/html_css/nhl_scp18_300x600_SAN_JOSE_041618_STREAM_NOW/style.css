@@ -74,12 +74,13 @@ body{
 
     #logos {
 		position: absolute;
-		left: 78px;
+		left: 65px;
 		top: 509px;	
-		width: 130px;
-		height: 41px;
+		width: 154px;
+		height: 46px;
 		background-image: url(images/logos.png);
 	}
+
 
 /*
 	#logo_nbc {

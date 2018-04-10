@@ -20,7 +20,7 @@
         
         <!-- END FRAME -->
 
-        <div id="cta"></div>
+<!--        <div id="cta"></div>-->
 
 <!--
         <div id="logo_nbc" class="networks"></div>
@@ -60,7 +60,7 @@
             $networks = $(".networks"),
             $scp = $("#scp"),
             $tagline = $("#tagline"),
-            $cta = $("#cta"),
+//            $cta = $("#cta"),
             tl;
 
         tl = new TimelineMax({repeat:2, repeatDelay:3.5});
@@ -81,7 +81,7 @@
           .from($scp, 0.35, {y:-25, opacity:0}, "endframe")
           .from($tunein, 0.35, {opacity:0}, "+=0.5")
           .staggerFrom($networks, 0.35, {opacity:0}, 0.2, "+=0.35")
-          .from($cta, 0.25, {yPercent:100, ease: Power1.easeOut}, "+=0.2")
+//          .from($cta, 0.25, {yPercent:100, ease: Power1.easeOut}, "+=0.2")
 
           .to($bg, 4, {scale:1}, "start")
 
