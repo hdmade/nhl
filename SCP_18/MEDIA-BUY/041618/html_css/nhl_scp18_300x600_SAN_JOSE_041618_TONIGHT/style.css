@@ -76,8 +76,8 @@ body{
 		position: absolute;
 		left: 78px;
 		top: 509px;	
-		width: 128px;
-		height: 38px;
+		width: 130px;
+		height: 41px;
 		background-image: url(images/logos.png);
 	}
 
@@ -139,10 +139,10 @@ body{
 
 	#tunein_tonight {
 		position: absolute;
-		left: 26px;
+		left: 12px;
 		top: 396px;	
-		width: 247px;
-		height: 86px;
+		width: 275px;
+		height: 84px;
 		background-image: url(images/tunein_tonight.png);
 	}
 
