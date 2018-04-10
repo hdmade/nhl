@@ -84,6 +84,17 @@ body{
 		background-image: url(images/logo_usa.png);
 	}
 
+
+    #logo_app {
+	/* ADJUST POSITION */
+		position: absolute;
+		left: 278px;
+		top: 8px;	
+		width: 34px;
+		height: 34px;
+		background-image: url(images/logo_app.png);
+	}
+
 	#scp {
 	/* ADJUST POSITION */
 		position: absolute;
