@@ -72,12 +72,12 @@ body{
 	}
 
 
-    #logos {
+     #logos {
 		position: absolute;
-		left: 65px;
-		top: 515px;	
-		width: 154px;
-		height: 46px;
+		left: 64px;
+		top: 513px;	
+		width: 162px;
+		height: 54px;
 		background-image: url(images/logos.png);
 	}
 
