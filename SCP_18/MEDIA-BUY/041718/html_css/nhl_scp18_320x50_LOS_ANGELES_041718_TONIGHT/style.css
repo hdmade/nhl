@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation {
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #464646;
+	box-sizing: border-box;
+}
+
+.bg {
+		position: absolute;
+		left: 0px;
+		top: 0px;	
+		width: 320px;
+		height: 50px;
+	}
+
+/* FRAME 1 */
+
+	#tagline {
+		position: absolute;
+		left: 4px;
+		top: 14px;	
+		width: 312px;
+		height: 21px;
+		background-image: url(images/tagline.png);
+	}
+
+
+/* END FRAME */
+
+	#logo_nbc {
+	/* ADJUST POSITION */
+		position: absolute;
+		left: 263px;
+		top: 10px;	
+		width: 49px;
+		height: 30px;
+		background-image: url(images/logo_nbc.png);
+	}
+
+	#logo_nbcsn {
+	/* ADJUST POSITION */
+		position: absolute;
+		left: 262px;
+		top: 5px;	
+		width: 53px;
+		height: 40px;
+		background-image: url(images/logo_nbcsn.png);
+	}
+
+	#logo_cnbc {
+	/* ADJUST POSITION */
+		position: absolute;
+		left: 263px;
+		top: 6px;	
+		width: 49px;
+		height: 38px;
+		background-image: url(images/logo_cnbc.png);
+	}
+
+	#logo_usa {
+	/* ADJUST POSITION */
+		position: absolute;
+		left: 263px;
+		top: 13px;	
+		width: 49px;
+		height: 23px;
+		background-image: url(images/logo_usa.png);
+	}
+
+	#scp {
+	/* ADJUST POSITION */
+		position: absolute;
+		left: 6px;
+		top: 7px;	
+		width: 104px;
+		height: 38px;
+		background-image: url(images/scp.png);
+	}
+
+	#tunein {
+	/* ADJUST POSITION, WIDTH */
+		position: absolute;
+		left: 121px;
+		top: 4px;	
+		width: 140px;
+		height: 41px;
+		background-image: url(images/tunein_tonight.png);
+	}
