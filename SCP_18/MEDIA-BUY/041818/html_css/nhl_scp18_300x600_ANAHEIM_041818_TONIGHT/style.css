@@ -74,9 +74,9 @@ body{
 
     #logos {
 		position: absolute;
-		left: 64px;
+		left: 45px;
 		top: 513px;	
-		width: 162px;
+		width: 207px;
 		height: 54px;
 		background-image: url(images/logos.png);
 	}
