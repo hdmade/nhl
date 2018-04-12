@@ -140,11 +140,12 @@ body{
 
 	#tunein_tonight {
 		position: absolute;
-		left: 16px;
+		left: 44px;
 		top: 397px;	
-		width: 266px;
+		width: 209px;
 		height: 82px;
 		background-image: url(images/tunein_tonight.png);
+        background-repeat: no-repeat;
 	}
 
 /*

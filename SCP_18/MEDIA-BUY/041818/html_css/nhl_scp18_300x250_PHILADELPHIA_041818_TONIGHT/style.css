@@ -120,4 +120,5 @@ body{
 		width: 193px;
 		height: 56px;
 		background-image: url(images/tunein_tonight.png);
+        background-repeat: no-repeat;
 	}
