@@ -75,7 +75,7 @@ body{
 	#logo_nbcsn {
 	/* ADJUST POSITION */
 		position: absolute;
-		left: 490px;
+		left: 468px;
 		top: 35px;	
 		width: 96px;
 		height: 43px;
@@ -126,7 +126,7 @@ body{
 	#tunein {
 	/* ADJUST POSITION, WIDTH */
 		position: absolute;
-		left: 315px;
+		left: 314px;
 		top: 15px;	
 		width: 147px;
 		height: 57px;

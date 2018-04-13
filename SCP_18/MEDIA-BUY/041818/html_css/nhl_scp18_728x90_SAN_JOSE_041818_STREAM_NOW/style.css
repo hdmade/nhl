@@ -105,7 +105,7 @@ body{
 	#logo_golf {
 	/* ADJUST POSITION */
 		position: absolute;
-		left: 495px;
+		left: 486px;
 		top: 15px;	
 		width: 105px;
 		height: 57px;
@@ -136,9 +136,9 @@ body{
 	#tunein {
 	/* ADJUST POSITION, WIDTH */
 		position: absolute;
-		left: 297px;
+		left: 306px;
 		top: 15px;	
-		width: 177px;
-		height: 59px;
+		width: 170px;
+		height: 58px;
 		background-image: url(images/tunein_stream.png);
 	}
