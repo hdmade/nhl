@@ -75,7 +75,7 @@ body{
 	#logo_nbcsn {
 	/* ADJUST POSITION */
 		position: absolute;
-		left: 466px;
+		left: 484px;
 		top: 35px;	
 		width: 96px;
 		height: 43px;
@@ -126,10 +126,10 @@ body{
 	#tunein {
 	/* ADJUST POSITION, WIDTH */
 		position: absolute;
-		left: 313px;
-		top: 15px;	
-		width: 147px;
-		height: 57px;
+		left: 294px;
+		top: 12px;	
+		width: 175px;
+		height: 64px;
 		background-image: url(images/tunein_tonight.png);
         background-repeat: no-repeat;
 	}
