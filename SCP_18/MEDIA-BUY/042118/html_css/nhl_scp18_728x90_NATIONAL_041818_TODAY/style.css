@@ -12,8 +12,8 @@ body{
 
 #banner {
 	position: absolute;
-	width: 300px;
-	height: 250px;
+	width: 728px;
+	height: 90px;
 	background-color: #000000;
 	padding: 0px;
 	margin: 0px;
@@ -24,20 +24,20 @@ body{
 
 .bg {
 		position: absolute;
-		left: -25px;
+		left: -60px;
 		top: 0px;	
-		width: 350px;
-		height: 250px;
+		width: 850px;
+		height: 90px;
 	}
 
 /* FRAME 1 */
 
 	#tagline {
 		position: absolute;
-		left: 19px;
-		top: 33px;	
-		width: 263px;
-		height: 183px;
+		left: 39px;
+		top: 22px;	
+		width: 648px;
+		height: 46px;
 		background-image: url(images/tagline.png);
 	}
 
@@ -46,18 +46,27 @@ body{
 
 	#image1 {
 		position: absolute;
-		left: 108px;
-		top: 18px;	
-		width: 192px;
-		height: 232px;
+		left: 0px;
+		top: 0px;	
+		width: 153px;
+		height: 90px;
 		background-image: url(images/image1.png);
+	}
+
+	#image2 {
+		position: absolute;
+		left: 565px;
+		top: 0px;	
+		width: 163px;
+		height: 90px;
+		background-image: url(images/image2.png);
 	}
 
 	#logo_nbc {
 	/* ADJUST POSITION */
 		position: absolute;
-		left: 20px;
-		top: 165px;	
+		left: 463px;
+		top: 41px;	
 		width: 93px;
 		height: 33px;
 		background-image: url(images/logo_nbc.png);
@@ -66,8 +75,8 @@ body{
 	#logo_nbcsn {
 	/* ADJUST POSITION */
 		position: absolute;
-		left: 20px;
-		top: 160px;	
+		left: 484px;
+		top: 35px;	
 		width: 96px;
 		height: 43px;
 		background-image: url(images/logo_nbcsn.png);
@@ -76,8 +85,8 @@ body{
 	#logo_cnbc {
 	/* ADJUST POSITION */
 		position: absolute;
-		left: 20px;
-		top: 163px;	
+		left: 479px;
+		top: 49px;	
 		width: 84px;
 		height: 35px;
 		background-image: url(images/logo_cnbc.png);
@@ -86,8 +95,8 @@ body{
 	#logo_usa {
 	/* ADJUST POSITION */
 		position: absolute;
-		left: 20px;
-		top: 167px;	
+		left: 468px;
+		top: 42px;	
 		width: 89px;
 		height: 29px;
 		background-image: url(images/logo_usa.png);
@@ -96,29 +105,31 @@ body{
 	#scp {
 	/* ADJUST POSITION */
 		position: absolute;
-		left: 8px;
-		top: 28px;	
-		width: 162px;
-		height: 58px;
+		left: 139px;
+		top: 19px;	
+		width: 139px;
+		height: 50px;
 		background-image: url(images/scp.png);
 	}
 
-	#image2 {
+/*
+	#teamlogo {
 		position: absolute;
-		left: 170px;
+		left: 50px;
 		top: 0px;	
-		width: 130px;
-		height: 95px;
-		background-image: url(images/image2.png);
+		width: 92px;
+		height: 47px;
+		background-image: url(images/teamlogo.png);
 	}
+*/
 
 	#tunein {
 	/* ADJUST POSITION, WIDTH */
 		position: absolute;
-		left: 19px;
-		top: 94px;	
-		width: 192px;
-		height: 59px;
+		left: 291px;
+		top: 12px;	
+		width: 198px;
+		height: 64px;
 		background-image: url(images/tunein_tonight.png);
         background-repeat: no-repeat;
 	}
