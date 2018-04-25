@@ -141,4 +141,5 @@ body{
 		width: 208px;
 		height: 61px;
 		background-image: url(images/tunein_stream.png);
+        background-repeat: no-repeat;
 	}

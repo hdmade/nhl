@@ -137,9 +137,10 @@ body{
 	#tunein {
 	/* ADJUST POSITION, WIDTH */
 		position: absolute;
-		left: 298px;
-		top: 15px;	
-		width: 197px;
-		height: 60px;
+		left: 291px;
+		top: 13px;	
+		width: 208px;
+		height: 80px;
 		background-image: url(images/tunein_tonight.png);
+        background-repeat: no-repeat;
 	}
