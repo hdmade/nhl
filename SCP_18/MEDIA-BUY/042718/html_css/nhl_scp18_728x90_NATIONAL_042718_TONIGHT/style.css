@@ -127,9 +127,9 @@ body{
 	/* ADJUST POSITION, WIDTH */
 		position: absolute;
 		left: 295px;
-		top: 15px;	
+		top: 12px;	
 		width: 200px;
-		height: 62px;
+		height: 63px;
 		background-image: url(images/tunein_tonight.png);
         background-repeat: no-repeat;
 	}
