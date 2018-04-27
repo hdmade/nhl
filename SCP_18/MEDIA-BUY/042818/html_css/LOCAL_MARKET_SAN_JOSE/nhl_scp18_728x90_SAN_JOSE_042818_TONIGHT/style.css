@@ -65,8 +65,8 @@ body{
 	#logo_nbc {
 	/* ADJUST POSITION */
 		position: absolute;
-		left: 495px;
-		top: 42px;	
+		left: 485px;
+		top: 44px;	
 		width: 93px;
 		height: 33px;
 		background-image: url(images/logo_nbc.png);
