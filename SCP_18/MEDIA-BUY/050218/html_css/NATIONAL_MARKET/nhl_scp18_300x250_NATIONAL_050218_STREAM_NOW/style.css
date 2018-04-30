@@ -117,7 +117,8 @@ body{
 		position: absolute;
 		left: 19px;
 		top: 94px;	
-		width: 177px;
-		height: 59px;
+		width: 185px;
+		height: 66px;
 		background-image: url(images/tunein_stream.png);
+        background-repeat: no-repeat;
 	}
