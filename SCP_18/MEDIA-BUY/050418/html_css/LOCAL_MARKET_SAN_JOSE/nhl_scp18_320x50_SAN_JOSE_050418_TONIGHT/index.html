@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>NHL Stanley Cup Playoffs 2018 | 320x50</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=320, height=50">
+    <script type="text/javascript">
+    var clickTag = "https://www.doubleclickbygoogle.com/";
+    
+  </script>
+
+</head>
+<body>
+
+    <div id="banner">
+        <a href="javascript:window.open(window.clickTag)">
+      
+      <div id="animation">
+
+      <img src="images/bg.jpg" class="bg" />
+        
+        <!-- END FRAME -->
+
+        <!-- TURN ON/OFF THE LOGO FOR THIS GAME -->
+             <!-- <div id="logo_nbc" class="networks"></div> -->
+            <div id="logo_nbcsn" class="networks"></div>
+<!--            <div id="logo_cnbc" class="networks"></div>-->
+            <!-- <div id="logo_usa" class="networks"></div> -->
+<!--           <div id="logo_golf" class="networks"></div>
+ -->
+        <div id="tunein"></div>
+
+        <div id="scp"></div> 
+
+        <!-- FRAME 1 -->
+        <div id="tagline"></div>
+
+      </div>
+</a>
+    </div>
+      
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $bg = $(".bg"),
+            $networks = $(".networks"),
+            $scp = $("#scp"),
+            $tagline = $("#tagline"),
+            $tunein = $("#tunein"),
+            tl;
+
+        tl = new TimelineMax({repeat:2, repeatDelay:3.5});
+
+        tl.set($bg, {scale:1.25})
+
+          .add("start")
+          .from($animation, 0.25, {autoAlpha:0}, "start+=0.5")
+
+          .add("frame1", "+=0.75")
+          .from($tagline, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame1")   
+
+          .add("endframe", "+=1.85")
+          .to($tagline, 0.25, {opacity:0}, "endframe")
+          .from($scp, 0.35, {x:-25, opacity:0}, "endframe")
+          .from($tunein, 0.35, {opacity:0}, "+=0.65")
+          .staggerFrom($networks, 0.35, {opacity:0}, 0.2)
+
+          .to($bg, 4, {scale:1}, "start")
+
+
+    });
+    </script>
+    
+
+</body>
+</html>
