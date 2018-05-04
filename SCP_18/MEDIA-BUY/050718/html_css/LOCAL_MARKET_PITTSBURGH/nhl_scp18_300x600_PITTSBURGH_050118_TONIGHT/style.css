@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation {
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #464646;
+	box-sizing: border-box;
+}
+
+.bg {
+		position: absolute;
+		left: 0px;
+		top: -30px;	
+		width: 300px;
+		height: 630px;
+	}
+
+/* FRAME 1 */
+
+	#tagline {
+		position: absolute;
+		left: 56px;
+		top: 113px;	
+		width: 182px;
+		height: 369px;
+		background-image: url(images/tagline.png);
+	}
+
+
+/* END FRAME */
+
+	#cta {
+		position: absolute;
+		left: 0px;
+		top: 573px;	
+		width: 300px;
+		height: 27px;
+		background-image: url(images/cta.jpg);
+	}
+
+	#image1 {
+		position: absolute;
+		left: 0px;
+		top: 0px;	
+		width: 300px;
+		height: 284px;
+		background-image: url(images/image1.png);
+	}
+
+    #image2 {
+		position: absolute;
+		left: 169px;
+		top: 0px;	
+		width: 133px;
+		height: 249px;
+		background-image: url(images/image2.png);
+	}
+
+
+    #logos {
+		position: absolute;
+		left: 64px;
+		top: 513px;	
+		width: 160px;
+		height: 57px;
+		background-image: url(images/logos.png);
+		background-repeat: no-repeat;
+	}
+
+/*
+	#logo_nbc {
+		position: absolute;
+		left: 12px;
+		top: 487px;	
+		width: 42px;
+		height: 25px;
+		background-image: url(images/logo_nbc.png);
+	}
+
+	#logo_nbcsn {
+		position: absolute;
+		left: 73px;
+		top: 481px;	
+		width: 46px;
+		height: 34px;
+		background-image: url(images/logo_nbcsn.png);
+	}
+
+	#logo_cnbc {
+		position: absolute;
+		left: 136px;
+		top: 482px;	
+		width: 42px;
+		height: 32px;
+		background-image: url(images/logo_cnbc.png);
+	}
+
+	#logo_usa {
+		position: absolute;
+		left: 195px;
+		top: 489px;	
+		width: 40px;
+		height: 18px;
+		background-image: url(images/logo_usa.png);
+	}
+
+	#logo_app {
+		position: absolute;
+		left: 254px;
+		top: 482px;	
+		width: 32px;
+		height: 32px;
+		background-image: url(images/logo_app.png);
+	}
+*/
+
+	#scp {
+		position: absolute;
+		left: 68px;
+		top: 193px;	
+		width: 163px;
+		height: 176px;
+		background-image: url(images/scp.png);
+	}
+
+	#tunein_tonight {
+		position: absolute;
+		left: 17px;
+		top: 396px;	
+		width: 280px;
+		height: 100px;
+		background-image: url(images/tunein_tonight.png);
+        background-repeat: no-repeat;
+	}
+
+/*
+    #tunein_stream {
+		position: absolute;
+		left: 17px;
+		top: 396px;	
+		width: 263px;
+		height: 86px;
+		background-image: url(images/tunein_stream.png);
+	}*/
