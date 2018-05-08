@@ -39,6 +39,7 @@
 
         <!-- FRAME 1 -->
         <div id="tagline"></div>
+          <div id="taglineb"></div>
 
       </div>
 </a>
@@ -53,11 +54,13 @@
         var $animation = $("#animation"),
 
             $bg = $(".bg"),
-            $image = $("#image1"),
+            $image1 = $("#image1"),
+            $image2 = $("#image2"),
             $networks = $(".networks"),
             $scp = $("#scp"),
             $tagline = $("#tagline"),
-            $teamlogo = $("#image2"),
+            $taglineb = $("#taglineb"),
+            
             $tunein = $("#tunein"),
             tl;
 
@@ -69,18 +72,28 @@
           .from($animation, 0.25, {autoAlpha:0}, "start+=0.5")
 
           .add("frame1", "+=0.75")
-          .from($tagline, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame1")   
+          .from($tagline, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame1")
+          .to($tagline, 0.25, {opacity:0}, "+=1.75")
 
-          .add("endframe", "+=1.85")
+           // .from($taglineb, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "+=3")  
+
+          .add("frame2", "+=0.1")
+          .from($taglineb, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame2")
+          .to($taglineb, 0.25, {opacity:0}, "+=2.0")
+
+           // .from($taglineb, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "+=3")  
+
+          .add("endframe", "+=.1")
           .to($tagline, 0.25, {opacity:0}, "endframe")
           .to($bg, 0.35, {x:-25, ease: Power1.easeOut}, "endframe")
-          .from($image, 0.35, {xPercent:100, ease: Power1.easeOut}, "endframe")
-          .from($teamlogo, 0.35, {xPercent:150, y:-70, ease: Power1.easeOut}, "endframe")
+          .from($image1, 0.35, {xPercent:100, ease: Power1.easeOut}, "endframe")
+          .from($image2, 0.35, {xPercent:150, y:-70, ease: Power1.easeOut}, "endframe")
           .from($scp, 0.35, {x:-25, opacity:0}, "endframe")
           .from($tunein, 0.35, {opacity:0}, "+=0.65")
           .staggerFrom($networks, 0.35, {opacity:0}, 0.2)
+        
 
-          .to($bg, 4, {scale:1}, "start")
+          .to($bg, 8, {scale:1}, "start")
 
 
     });

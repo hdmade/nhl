@@ -34,11 +34,20 @@ body{
 
 	#tagline {
 		position: absolute;
+		left: 70px;
+		top: 18px;	
+		width: 587px;
+		height: 55px;
+		background-image: url(images/tagline.png);
+	}
+
+    #taglineb {
+		position: absolute;
 		left: 39px;
 		top: 22px;	
 		width: 648px;
 		height: 46px;
-		background-image: url(images/tagline.png);
+		background-image: url(images/taglineb.png);
 	}
 
 
