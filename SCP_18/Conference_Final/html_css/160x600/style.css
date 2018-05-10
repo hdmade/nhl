@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation {
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 160px;
+	height: 600px;
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #464646;
+	box-sizing: border-box;
+}
+
+.bg {
+		position: absolute;
+		left: 0px;
+		top: -40px;	
+		width: 160px;
+		height: 640px;
+	}
+
+/* FRAME 1 */
+
+	#tagline {
+		position: absolute;
+		left: 14px;
+		top: 139px;	
+		width: 132px;
+		height: 306px;
+		background-image: url(images/tagline.png);
+	}
+
+
+/* END FRAME */
+	
+/*
+	#begin {
+		position: absolute;
+		left: 16px;
+		top: 273px;	
+		width: 126px;
+		height: 23px;
+		background-image: url(images/begin.png);
+	}
+*/
+
+	#image {
+		position: absolute;
+		left: 0px;
+		top: 0px;	
+		width: 160px;
+		height: 191px;
+		background-image: url(images/image.png);
+	}
+
+    #tag {
+		position: absolute;
+		left: 8px;
+		top: 280px;	
+		width: 145px;
+		height: 80px;
+		background-image: url(images/tag.png);
+	}
+
+
+	#logo_nbc {
+		position: absolute;
+		left: 61px;
+		top: 385px;	
+		width: 38px;
+		height: 24px;
+		background-image: url(images/logo_nbc.png);
+	}
+
+	#logo_nbcsn {
+		position: absolute;
+		left: 60px;
+		top: 420px;	
+		width: 41px;
+		height: 32px;
+		background-image: url(images/logo_nbcsn.png);
+	}
+
+	#logo_cnbc {
+		position: absolute;
+		left: 61px;
+		top: 460px;	
+		width: 38px;
+		height: 29px;
+		background-image: url(images/logo_cnbc.png);
+	}
+
+	#logo_usa {
+		position: absolute;
+		left: 61px;
+		top: 485px;	
+		width: 38px;
+		height: 17px;
+		background-image: url(images/logo_usa.png);
+	}
+
+	#logo_app {
+		position: absolute;
+		left: 64px;
+		top: 501px;	
+		width: 32px;
+		height: 33px;
+		background-image: url(images/logo_app.png);
+	}
+
+    #cta {
+		position: absolute;
+		left: 0px;
+		top: 573px;	
+		width: 160px;
+		height: 27px;
+		background-image: url(images/cta.jpg);
+	}
+
+	#scp {
+		position: absolute;
+		left: 21px;
+		top: 137px;	
+		width: 117px;
+		height: 126px;
+		background-image: url(images/scp.png);
+	}
