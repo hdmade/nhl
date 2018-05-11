@@ -71,6 +71,7 @@ body{
 		width: 357px;
 		height: 25px;
 		background-image: url(images/tag.png);
+        background-repeat: no-repeat;
 	}
 
 	#logo_nbc {
