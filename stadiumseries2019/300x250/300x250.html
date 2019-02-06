@@ -21,6 +21,14 @@
         <div id="bgdarkblue"></div>
         <div id="logolarge"></div>
 
+
+
+
+<!-- Frame 3 -->
+        <div id="bgtagline"></div>
+        <div id="tagline1"></div>
+        <div id="tagline2"></div>
+
 <!-- orange mask -->       
         <div id="orangemask">
           <div id="frameorange"></div>
@@ -32,19 +40,15 @@
 
 
 <!-- Frame 3 -->
-        <div id="bgtagline">
-        <div id="tagline1">
-        <div id="tagline2">
-
-
-
-<!-- Frame 3 -->
-        <div id="bgend"></div> 
-        <div id="playersbeforeteams"></div> 
-        <div id="playersafterteams"></div> 
+        <div id="bgend"></div>
+        <div id="fireworkmask">
+          <div id="fireworks1"></div>
+          <div id="fireworks2"></div>
+          <div id="fireworks3"></div>
+        </div> 
+        <div id="players"></div> 
         <div id="teams"></div> 
         <div id="logohoriz"></div>
-        <div id="network"></div>         
       </div>        
     </div>
 
@@ -66,9 +70,12 @@
             $tagline1 = $("#tagline1"),
             $tagline2 = $("#tagline2"),
 
+            $fireworks1 = $("#fireworks1"),
+            $fireworks2 = $("#fireworks2"),
+            $fireworks3 = $("#fireworks3"),
 
             $bgend = $("#bgend"),
-            $playersbeforeteams = $("#playersbeforeteams"),
+            $players = $("#players"),
             $playersafterteams = $("#playersafterteams"),
             $teams = $("#teams"),
             $logohoriz = $("#logohoriz"),
@@ -76,39 +83,46 @@
             
             tl;
 
-        tl = new TimelineMax({repeat:1, repeatDelay:3});
+        tl = new TimelineMax({repeat:1, repeatDelay:4});
 
         tl.add("start")
           .from($animation, 0.5, {autoAlpha:0}, "+=0.5") 
 
           
           // frame 1 build in
+          .to(bgdarkblue, 10, {top:150, ease: Power0.easeNone}, "start+=0.5")
           .from(logolarge, .5, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=0.5")
           .to(logolarge, .5, {opacity:0}, "start+=3.0")
 
 
           //planes 
-          .to(frameyellow, 2, {left:-473, }, "start+=3.0")
-          .to(frameorange, 2, {left:257, }, "start+=3.0")
+          .to(frameyellow, 1.8, {left:-473, ease: Power1.easeOut}, "start+=3.0")
+          .to(frameorange, 1.8, {left:107, ease: Power1.easeOut}, "start+=3.0")
 
           // .to(frameorange, 1.3, {left:300,}, "start+=3.3")
           // .to(bgdarkblue, 1.3, {opacity:0}, "start+=3.0")
 
-          .from(bgtagline, .5, {opacity:0, ease: Power1.easeIn}, "start+=3.5")
-
+          
+          .from(bgtagline, .5, {opacity:0, ease: Power1.easeIn}, "start+=3.7")
+          .to(bgtagline, 11.5, {top:150, ease: Power0.easeNone}, "start+=3.8")
 
           .from(tagline1, .5, {opacity:0, ease: Power1.easeIn}, "start+=4")
-          .from(tagline2, .5, {opacity:0, ease: Power1.easeIn}, "start+=5")
+          .to(tagline1, .5, {opacity:0, ease: Power1.easeIn}, "start+=6")
+          .from(tagline2, .5, {opacity:0, ease: Power1.easeIn}, "start+=6.5")
 
           //game
-          .to(bgend, .5, {opacity:1, ease: Power1.easeIn}, "start+=10")
-          .to(playersbeforeteams, .2, {opacity:1, ease: Power1.easeIn}, "start+=10")
-          .to(playersbeforeteams, .5, {opacity:0}, "start+=10")
+          
+          .from(fireworks1, .8, {opacity:0, top:10, ease: Power2.easeOut}, "start+=9.5")
+          .from(fireworks2, .8, {opacity:0, top:10, ease: Power2.easeOut}, "start+=9.8")
+          .from(fireworks3, .8, {opacity:0, top:10, ease: Power2.easeOut}, "start+=9.6")    
 
-          .from(logohoriz, .3, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=10")
-          .from(teams, .3, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=10")
-          .from(network, .3, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=10")
-          .to(playersafterteams, .5, {opacity:1, ease: Power1.easeIn}, "start+=10")
+
+          .to(bgend, .5, {opacity:1, ease: Power1.easeIn}, "start+=9")
+          .from(players, .8, {opacity:0, ease: Power1.easeOut}, "start+=10")
+
+
+          .from(logohoriz, .5, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=10.5")
+          .from(teams, .5, {opacity:0, scale:1.5, ease: Power1.easeIn}, "start+=10.7")
 
           ;
 
