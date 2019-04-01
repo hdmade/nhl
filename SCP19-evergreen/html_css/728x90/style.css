@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation {
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+}
+
+.bg {
+		position: absolute;
+		left: -55px;
+		top: 0px;	
+		width: 838px;
+		height: 90px;
+	}
+
+/* FRAME 1 */
+
+	#tagline2 {
+		position: absolute;
+		left: 21px;
+		top: 20px;	
+		width: 687px;
+		height: 49px;
+		background-image: url(images/tagline2.png);
+	}
+
+	#tagline2outline {
+		position: absolute;
+		left: 422px;
+		top: 23px;	
+		width: 288px;
+		height: 49px;
+		background-image: url(images/tagline2-outline.png);
+	}
+
+
+/* END FRAME */
+	
+/*
+	#begin {
+		position: absolute;
+		left: 453px;
+		top: 8px;	
+		width: 163px;
+		height: 30px;
+		background-image: url(images/begin.png);
+	}
+*/
+
+	#image {
+		position: absolute;
+		left: 0px;
+		top: 0px;	
+		width: 183px;
+		height: 90px;
+		background-image: url(images/image.png);
+	}
+
+    #tag {
+		position: absolute;
+		left: 353px;
+		top: 13px;	
+		width: 333px;
+		height: 23px;
+		background-image: url(images/tag.png);
+	}
+
+	#logo_nbc {
+		position: absolute;
+		left: 371px;
+		top: 48px;	
+		width: 45px;
+		height: 28px;
+		background-image: url(images/logo_nbc.png);
+	}
+
+	#logo_nbcsn {
+		position: absolute;
+		left: 432px;
+		top: 44px;	
+		width: 49px;
+		height: 38px;
+		background-image: url(images/logo_nbcsn.png);
+	}
+
+	#logo_cnbc {
+		position: absolute;
+		left: 500px;
+		top: 46px;	
+		width: 45px;
+		height: 35px;
+		background-image: url(images/logo_cnbc.png);
+	}
+
+	#logo_usa {
+		position: absolute;
+		left: 563px;
+		top: 54px;	
+		width: 43px;
+		height: 19px;
+		background-image: url(images/logo_usa.png);
+	}
+
+	#logo_app {
+		position: absolute;
+		left: 623px;
+		top: 46px;	
+		width: 36px;
+		height: 36px;
+		background-image: url(images/logo_app.png);
+	}
+
+     #cta {
+		position: absolute;
+		left: 703px;
+		top: 0px;	
+		width: 24px;
+		height: 89px;
+		background-image: url(images/cta.png);
+	}
+
+	#scp {
+		position: absolute;
+		left: 172px;
+		top: 16px;	
+		width: 162px;
+		height: 58px;
+		background-image: url(images/scp.png);
+	}
