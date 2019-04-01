@@ -32,21 +32,39 @@ body{
 
 /* FRAME 1 */
 
+	#tagline1 {
+		position: absolute;
+		left: 62px;
+		top: 20px;	
+		width: 604px;
+		height: 50px;
+		background-image: url(images/tagline1.png);
+	}
+
+	#tagline1outline {
+		position: absolute;
+		left: 462px;
+		top: 22px;	
+		width: 207px;
+		height: 51px;
+		background-image: url(images/tagline1-outline.png);
+	}	
+
 	#tagline2 {
 		position: absolute;
-		left: 21px;
+		left: 24px;
 		top: 20px;	
 		width: 687px;
-		height: 49px;
+		height: 48px;
 		background-image: url(images/tagline2.png);
 	}
 
 	#tagline2outline {
 		position: absolute;
-		left: 422px;
-		top: 23px;	
+		left: 425px;
+		top: 22px;	
 		width: 288px;
-		height: 49px;
+		height: 50px;
 		background-image: url(images/tagline2-outline.png);
 	}
 
@@ -122,8 +140,8 @@ body{
 		position: absolute;
 		left: 623px;
 		top: 46px;	
-		width: 36px;
-		height: 36px;
+		width: 34px;
+		height: 34px;
 		background-image: url(images/logo_app.png);
 	}
 

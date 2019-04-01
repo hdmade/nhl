@@ -39,6 +39,10 @@
         <!-- theres nothing like -->
         <div id="taglinetop"></div>
 
+        <!-- showtime -->
+        <div id="tagline1"></div>
+        <div id="tagline1outline"></div>
+
         <!-- playoff hockey -->
 
         <div id="tagline2"></div>
@@ -65,6 +69,8 @@
             $scp = $("#scp"),
 
             $taglinetop = $("#taglinetop"),
+            $tagline1 = $("#tagline1"),
+            $tagline1outline = $("#tagline1outline"),
             $tagline2 = $("#tagline2"),
             $tagline2outline = $("#tagline2outline"),
             tl;
@@ -78,15 +84,24 @@
 
           .add("frame1", "+=0.75")
           .from($taglinetop, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame1")
-          .from($tagline2, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame1+=0.4")   
-          .from($tagline2outline, 2, {autoAlpha:0, ease: RoughEase.ease.config({ template:  Power0.easeNone, strength: 1, points: 20, taper: "none", randomize: true, clamp: false})}, "frame1+=0.6")   
+          
+          .from($tagline1, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame1+=0.4")   
+          .from($tagline1outline, 2, {autoAlpha:0, ease: RoughEase.ease.config({ template:  Power0.easeNone, strength: 1, points: 20, taper: "none", randomize: true, clamp: false})}, "frame1+=0.6")
 
-          .add("endframe", "+=1.85")
-          .to($taglinetop, 0.25, {opacity:0}, "endframe")
-          .to($tagline2, 0.25, {opacity:0}, "endframe")
-          .to($tagline2outline, 0.25, {opacity:0}, "endframe")
+          .to($tagline1, 0.25, {opacity:0, y:25}, "frame1+=3")
+          .to($tagline1outline, 0.25, {opacity:0, y:25}, "frame1+=3")
+
+          .from($tagline2, 0.25, {opacity:0, scale:2, ease: Power1.easeOut}, "frame1+=3.5")   
+          .from($tagline2outline, 2, {autoAlpha:0, ease: RoughEase.ease.config({ template:  Power0.easeNone, strength: 1, points: 20, taper: "none", randomize: true, clamp: false})}, "frame1+=3.5") 
+
+          .to($tagline2, 0.25, {opacity:0,}, "frame1+=6")
+          .to($tagline2outline, 0.25, {opacity:0}, "frame1+=6") 
+          .to($taglinetop, 0.25, {opacity:0}, "frame1+=6")
 
 
+          .add("endframe")
+
+          
           .to($bg, 0.35, {x:-25, ease: Power1.easeOut}, "endframe")
           .from($image, 0.35, {xPercent:100, ease: Power1.easeOut}, "endframe")
           .from($scp, 0.35, {x:-25, opacity:0}, "endframe")
@@ -94,7 +109,7 @@
           .staggerFrom($networks, 0.35, {opacity:0}, 0.2, "+=0.35")
           .from($cta, 0.25, {yPercent:100, x:-20, ease: Power1.easeOut}, "+=0.2")
 
-          .to($bg, 6, {scale:1}, "start")
+          .to($bg, 8, {scale:1}, "start")
 
 
     });

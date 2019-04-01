@@ -41,6 +41,25 @@ body{
 		background-image: url(images/tagline-top.png);
 	}
 
+	#tagline1 {
+		position: absolute;
+		left: 45px;
+		top: 144px;	
+		width: 205px;
+		height: 57px;
+		background-image: url(images/tagline1.png);
+	}
+
+	#tagline1outline {
+		position: absolute;
+		left: 47px;
+		top: 146px;	
+		width: 206px;
+		height: 58px;
+		background-image: url(images/tagline1-outline.png);
+	}
+
+
 	#tagline2 {
 		position: absolute;
 		left: 15px;
@@ -52,7 +71,7 @@ body{
 
 	#tagline2outline {
 		position: absolute;
-		left: 17px;
+		left: 16px;
 		top: 145px;	
 		width: 273px;
 		height: 46px;
@@ -75,10 +94,10 @@ body{
 
 	#image {
 		position: absolute;
-		left: 68px;
-		top: 18px;	
-		width: 232px;
-		height: 232px;
+		right: 0px;
+		bottom: 0px;	
+		width: 238px;
+		height: 242px;
 		background-image: url(images/image.png);
 	}
 
@@ -138,7 +157,7 @@ body{
 
     #cta {
 		position: absolute;
-		left: 74px;
+		right: 0px;
 		top: 228px;	
 		width: 226px;
 		height: 22px;
