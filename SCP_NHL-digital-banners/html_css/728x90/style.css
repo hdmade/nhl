@@ -74,7 +74,7 @@ body{
 	
 	#begin {
 		position: absolute;
-		left: 364px;
+		left: 366px;
 		top: 11px;	
 		width: 333px;
 		height: 23px;
@@ -128,7 +128,7 @@ body{
 
 	#logo_app {
 		position: absolute;
-		left: 658px;
+		left: 661px;
 		top: 49px;	
 		width: 32px;
 		height: 32px;
@@ -137,10 +137,10 @@ body{
 
 	#logo_nhl {
 		position: absolute;
-		left: 608px;
-		top: 52px;	
-		width: 38px;
-		height: 28px;
+		left: 609px;
+		top: 51px;	
+		width: 43px;
+		height: 30px;
 		background-image: url(images/logo_nhl.png);
 	}
 
